@@ -1,0 +1,88 @@
+using System;
+using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
+using System.Collections;
+
+
+public class gameManagerGlobal : MonoBehaviour
+{
+    public GameObject joueur;
+
+    public GameObject instructionMinigame1;
+    public GameObject instructionMinigame2;
+    public GameObject instructionMinigame3;
+
+    public static bool minigame1Completed = false;
+    public static bool minigame2Completed = false;
+    public static bool minigame3Completed = false;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+       if (minigame1Completed && minigame2Completed && minigame3Completed)
+        {
+            StartCoroutine(FinJeu());
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "porte1")
+        {
+            instructionMinigame1.SetActive(true);
+        }
+        if (collision.gameObject.tag == "porte2")
+        {
+            instructionMinigame2.SetActive(true);
+        }
+        if (collision.gameObject.tag == "porte3")
+        {
+            instructionMinigame3.SetActive(true);
+        }
+    }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        if (collision.gameObject.tag == "porte1")
+        {
+            instructionMinigame1.SetActive(false);
+        }
+        if (collision.gameObject.tag == "porte2")
+        {
+            instructionMinigame2.SetActive(false);
+        }
+        if (collision.gameObject.tag == "porte3")
+        {
+            instructionMinigame3.SetActive(false);
+        }
+    }
+
+    public void Minigame1()
+    {
+        SceneManager.LoadScene("Minigame1");
+    }
+    public void Minigame2()
+    {
+        SceneManager.LoadScene("Minigame2");
+    }
+
+    public void Minigame3()
+    {
+        SceneManager.LoadScene("Minigame3");
+    }
+
+    IEnumerator FinJeu()
+    {
+        yield return new WaitForSeconds(3f);
+        Debug.Log("Jeu terminé !");
+    }
+}

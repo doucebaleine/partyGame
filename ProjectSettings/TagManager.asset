@@ -12,6 +12,7 @@ TagManager:
   - porte1
   - porte2
   - porte3
+  - tv
   layers:
   - Default
   - TransparentFX

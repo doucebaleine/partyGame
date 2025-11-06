@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F1DE4F13-BB0E-12AB-B481-2B74D402897B}</ProjectGuid>
+    <ProjectGuid>{2FE9CFE8-3050-1ED5-C5D8-43343CF57528}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.XR.Hands.Samples.Gestures</AssemblyName>

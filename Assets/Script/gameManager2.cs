@@ -4,17 +4,17 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
 
-    public GameObject prefabTV;
     public GameObject prefabPlateforme;
     public List<Material> listeCouleur;
 
     public int tailleGrille = 4; // Taille du quadrillage (4x4 par défaut)
     public float espaceEntrePlateformes = 2.0f; // Espacement entre les plateformes
-    public float delaiChangementCouleur = 5.0f; // Délai avant changement de couleur
+    public float delaiVerification = 5.0f; // Délai avant changement de couleur
 
     private List<GameObject> plateformes = new List<GameObject>();
     private List<GameObject> televisions = new List<GameObject>();
@@ -31,8 +31,8 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Start()
     {
         GenererPlateformes();
-        GenererTelevisions();
-        InvokeRepeating(nameof(ChangerCouleurs), delaiChangementCouleur, delaiChangementCouleur);
+        televisions.AddRange(GameObject.FindGameObjectsWithTag("tv"));
+        ChangerCouleurs();
     }
 
     // Update is called once per frame
@@ -43,36 +43,21 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void GenererPlateformes()
     {
         // Générer un quadrillage de plateformes
-        for (int x = 0; x < tailleGrille; x++)
+        for (int colonne = 0; colonne < tailleGrille; colonne++)
         {
-            for (int z = 0; z < tailleGrille; z++)
+            for (int ligne = 0; ligne < tailleGrille; ligne++)
             {
-                Vector3 position = new Vector3(x * espaceEntrePlateformes, 0, z * espaceEntrePlateformes);
-                GameObject plateforme = Instantiate(prefabPlateforme, position, Quaternion.identity);
-                plateformes.Add(plateforme);
+                // Calculer la position de la plateforme
+                Vector3 positionPlateforme = new Vector3(colonne * espaceEntrePlateformes, 0, ligne * espaceEntrePlateformes);
 
-                // Assigner une couleur aléatoire à chaque plateforme
+                // Instancier la plateforme à la position calculée
+                GameObject nouvellePlateforme = Instantiate(prefabPlateforme, positionPlateforme, Quaternion.identity);
+                plateformes.Add(nouvellePlateforme);
+
+                // Assigner une couleur aléatoire à la plateforme
                 Material couleurAleatoire = listeCouleur[Random.Range(0, listeCouleur.Count)];
-                plateforme.GetComponent<Renderer>().material = couleurAleatoire;
+                nouvellePlateforme.GetComponent<Renderer>().material = couleurAleatoire;
             }
-        }
-    }
-
-    void GenererTelevisions()
-    {
-        // Générer 4 télévisions autour de l'espace de jeu
-        float offset = tailleGrille * espaceEntrePlateformes / 2;
-        Vector3[] positionsTV = {
-            new Vector3(-offset, 2, 0), // Gauche
-            new Vector3(offset, 2, 0),  // Droite
-            new Vector3(0, 2, -offset), // Bas
-            new Vector3(0, 2, offset)   // Haut
-        };
-
-        foreach (Vector3 position in positionsTV)
-        {
-            GameObject tv = Instantiate(prefabTV, position, Quaternion.identity);
-            televisions.Add(tv);
         }
     }
 
@@ -85,28 +70,39 @@ public class NewMonoBehaviourScript : MonoBehaviour
             tv.GetComponent<Renderer>().material = couleurActuelleTV;
         }
 
+        foreach (GameObject plateforme in plateformes)
+        {
+            // Assigner une nouvelle couleur aléatoire aux plateformes
+            Material couleurAleatoire = listeCouleur[Random.Range(0, listeCouleur.Count)];
+            plateforme.GetComponent<Renderer>().material = couleurAleatoire;
+        }
+        
         // Vérifier les plateformes et désactiver celles qui ne correspondent pas
         StartCoroutine(VerifierPlateformes());
     }
 
-    System.Collections.IEnumerator VerifierPlateformes()
+   IEnumerator VerifierPlateformes()
     {
-        yield return new WaitForSeconds(5.0f); // Attendre 5 secondes avant de vérifier
+        yield return new WaitForSeconds(delaiVerification); // Attendre le délai indiqué avant de vérifier
 
         foreach (GameObject plateforme in plateformes)
         {
-            Material couleurPlateforme = plateforme.GetComponent<Renderer>().material;
-            if (couleurPlateforme != couleurActuelleTV)
+            //Debug.Log("Vérification de la plateforme: " + plateforme.name);
+            Texture texturePlateforme = plateforme.GetComponent<MeshRenderer>().material.mainTexture;
+            //Debug.Log("Texture plateforme: " + texturePlateforme.name);
+            if (texturePlateforme != couleurActuelleTV.mainTexture)
             {
                 plateforme.SetActive(false); // Désactiver les plateformes de la mauvaise couleur
             }
         }
 
-        yield return new WaitForSeconds(5.0f); // Attendre avant de réactiver les plateformes
+        yield return new WaitForSeconds(delaiVerification); // Attendre avant de réactiver les plateformes
 
         foreach (GameObject plateforme in plateformes)
         {
             plateforme.SetActive(true); // Réactiver toutes les plateformes
         }
+        ChangerCouleurs(); // Recommencer le processus de changement de couleur
+        delaiVerification = Mathf.Max(0.5f, delaiVerification - 0.5f); // Réduire le délai pour augmenter la difficulté
     }
 }

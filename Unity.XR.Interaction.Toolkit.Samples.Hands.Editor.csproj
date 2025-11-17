@@ -566,6 +566,10 @@
       <HintPath>/Applications/Unity/Hub/Editor/6000.2.9f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Library/PackageCache/com.unity.services.wire@2d36cce58c62/Plugins/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library/PackageCache/com.unity.visualscripting@b4d700247d4b/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
       <Private>False</Private>

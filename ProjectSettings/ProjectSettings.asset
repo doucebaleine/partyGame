@@ -782,11 +782,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: ae3223de-fca6-4588-9cc7-7715cebaf5b6
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: partyGame
+  organizationId: sophienadeau
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

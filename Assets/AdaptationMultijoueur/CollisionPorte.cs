@@ -9,6 +9,6 @@ public class CollisionPorte : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         // Appel au GameManager pour charger le mini-jeu
-        GameManagerGlobalMulti.instance.LoadMinigameServerRpc(indexMinigame);
+        GameManagerGlobalMulti.instance.LoadMinigameRpc(indexMinigame);
     }
 }

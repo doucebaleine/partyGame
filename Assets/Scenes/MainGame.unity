@@ -9680,6 +9680,18 @@ PrefabInstance:
       propertyPath: GlobalObjectIdHash
       value: 2796207081
       objectReference: {fileID: 0}
+    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 200479472
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 2400395446
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

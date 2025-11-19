@@ -10,6 +10,7 @@ public class GameManagerGlobalMulti : NetworkBehaviour
 {
     public static GameManagerGlobalMulti instance;
 
+    public GameObject playerPrefab; // XR Rig prefab
     public GameObject instructionMinigame1;
     public GameObject instructionMinigame2;
     public GameObject instructionMinigame3;
@@ -35,17 +36,42 @@ public class GameManagerGlobalMulti : NetworkBehaviour
         }  
     }
 
-    void Start()
+    public override void OnNetworkSpawn()
     {
-        if (!IsServer) return;
+        base.OnNetworkSpawn();
 
-        NetworkManager.Singleton.OnClientConnectedCallback += (ulong clientId) =>
+        NetworkManager.Singleton.OnClientConnectedCallback += OnNouveauClientConnecte;
+    }
+
+    public override void OnNetworkDespawn()
+    {
+        base.OnNetworkSpawn();
+
+        NetworkManager.Singleton.OnClientConnectedCallback -= OnNouveauClientConnecte;
+    }
+
+    void OnNouveauClientConnecte(ulong clientId)
+    {
+        Debug.Log($"OnClientConnected triggered: {clientId}");
+        if (!NetworkManager.Singleton.IsServer) return;
+
+        // Vérifier le nombre maximum de joueurs
+        if (NetworkManager.Singleton.ConnectedClients.Count > 2)
         {
-           if(NetworkManager.Singleton.ConnectedClients.Count == 2)
-            {
-                NetworkManager.SceneManager.LoadScene("MainGame", LoadSceneMode.Single);
-            }
-        };
+            Debug.Log("Nombre maximum de joueurs atteint.");
+            NetworkManager.Singleton.DisconnectClient(clientId);
+            return;
+        }
+
+        GameObject player = Instantiate(playerPrefab);
+        player.GetComponent<NetworkObject>().SpawnAsPlayerObject(clientId, true);
+
+        if (NetworkManager.Singleton.ConnectedClients.Count == 2)
+        {
+            Debug.Log("Nombre maximum de joueurs atteint. Démarrage du jeu...");
+            // Démarrer le jeu lorsque le nombre maximum de joueurs est atteint
+            NetworkManager.SceneManager.LoadScene("MainGame", LoadSceneMode.Single);
+        }
     }
 
     void Update()
@@ -61,12 +87,12 @@ public class GameManagerGlobalMulti : NetworkBehaviour
     }
 
     // Appel depuis les portes (côté client)
-    public void Minigame1() => LoadMinigameServerRpc(1);
-    public void Minigame2() => LoadMinigameServerRpc(2);
-    public void Minigame3() => LoadMinigameServerRpc(3);
+    public void Minigame1() => LoadMinigameRpc(1);
+    public void Minigame2() => LoadMinigameRpc(2);
+    public void Minigame3() => LoadMinigameRpc(3);
 
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
-    public void LoadMinigameServerRpc(int index)
+    public void LoadMinigameRpc(int index)
     {
         string nomScene = index switch
         {
@@ -85,7 +111,7 @@ public class GameManagerGlobalMulti : NetworkBehaviour
 
     // Appel depuis les mini-jeux (côté client)
     [Rpc(SendTo.Server, InvokePermission = RpcInvokePermission.Everyone)]
-    public void CompleteMinigameServerRpc(int indexMinigame)
+    public void CompleteMinigameRpc(int indexMinigame)
     {
         switch (indexMinigame)
         {

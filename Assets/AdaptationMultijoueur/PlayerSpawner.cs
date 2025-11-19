@@ -6,18 +6,25 @@ public class PlayerSpawner : MonoBehaviour
     public GameObject playerPrefab; // XR Rig prefab
     public int maxPlayers = 2; // Nombre maximum de joueurs
 
-    void Start()
+    void OnEnable()
     {
-        NetworkManager.Singleton.OnClientConnectedCallback += SpawnPlayer;
-        NetworkManager.Singleton.OnClientDisconnectCallback += RemovePlayer;
+        NetworkManager.Singleton.OnClientConnectedCallback += OnClientConnected;
+        NetworkManager.Singleton.OnClientDisconnectCallback += OnClientDisconnected;
     }
 
-    void SpawnPlayer(ulong clientId)
+    void OnDisable()
     {
+        NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
+        NetworkManager.Singleton.OnClientDisconnectCallback -= OnClientDisconnected;
+    }
+
+    void OnClientConnected(ulong clientId)
+    {
+        Debug.Log($"OnClientConnected triggered: {clientId}");
         if (!NetworkManager.Singleton.IsServer) return;
 
         // Vérifier le nombre maximum de joueurs
-        if (NetworkManager.Singleton.ConnectedClients.Count >maxPlayers)
+        if (NetworkManager.Singleton.ConnectedClients.Count > maxPlayers)
         {
             Debug.Log("Nombre maximum de joueurs atteint.");
             NetworkManager.Singleton.DisconnectClient(clientId);
@@ -28,15 +35,16 @@ public class PlayerSpawner : MonoBehaviour
         player.GetComponent<NetworkObject>().SpawnAsPlayerObject(clientId, true);
     }
 
-    void RemovePlayer(ulong clientId)
+    void OnClientDisconnected(ulong clientId)
     {
-        if (NetworkManager.Singleton.IsServer)
+        if (!NetworkManager.Singleton.IsServer) return;
+
+        if (NetworkManager.Singleton.ConnectedClients.ContainsKey(clientId))
         {
             NetworkObject playerObject = NetworkManager.Singleton.ConnectedClients[clientId].PlayerObject;
             if (playerObject != null)
             {
-                playerObject.Despawn();
-                Destroy(playerObject.gameObject);
+                playerObject.Despawn(true);
             }
         }
     }

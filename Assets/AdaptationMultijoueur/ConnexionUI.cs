@@ -20,11 +20,14 @@ public class ConnexionUI : MonoBehaviour
         StartCoroutine(RelayManager.instance.ConfigureTransportAndStartNgoAsHost());
     }
 
-    public void JoinGame()
+    public void OuvrirPanneauClient()
     {
         panneauClient.SetActive(true);
         panneauConnexion.SetActive(false);
+    }
 
+    public void JoinGame()
+    {
         // Récupérer le code de connexion entré par l'utilisateur
         RelayManager.instance.RelayJoinCode = joinCodeInputField.text;
 

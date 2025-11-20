@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|c:\\users\\laure\\onedrive\\bureau\\doucebaleine\\ecole\\a25\\xp\\partygame\\assets\\script\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|c:\\users\\laure\\onedrive\\bureau\\doucebaleine\\ecole\\a25\\xp\\partygame\\assets\\import\\3d gamekit - environment pack\\shaders\\vegetation.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|solutionrelative:assets\\import\\3d gamekit - environment pack\\shaders\\vegetation.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|c:\\users\\laure\\onedrive\\bureau\\doucebaleine\\ecole\\a25\\xp\\partygame\\assets\\script\\gestionjoueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gestionjoueur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\assets\\script\\gamemanagerglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanagerglobal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\assets\\script\\gestionplanete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gestionplanete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\assets\\script\\gamemanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\assets\\script\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2251BB25-EFD9-838F-EEBF-CD8A807CC4E7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +39,76 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Vegetation.shader",
+              "DocumentMoniker": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Import\\3D Gamekit - Environment Pack\\Shaders\\Vegetation.shader",
+              "RelativeDocumentMoniker": "Assets\\Import\\3D Gamekit - Environment Pack\\Shaders\\Vegetation.shader",
+              "ToolTip": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Import\\3D Gamekit - Environment Pack\\Shaders\\Vegetation.shader",
+              "RelativeToolTip": "Assets\\Import\\3D Gamekit - Environment Pack\\Shaders\\Vegetation.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-11-20T04:50:33.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gestionJoueur.cs",
+              "DocumentMoniker": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gestionJoueur.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\gestionJoueur.cs",
+              "ToolTip": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gestionJoueur.cs",
+              "RelativeToolTip": "Assets\\Script\\gestionJoueur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:21:58.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gameManagerGlobal.cs",
+              "DocumentMoniker": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gameManagerGlobal.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\gameManagerGlobal.cs",
+              "ToolTip": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gameManagerGlobal.cs",
+              "RelativeToolTip": "Assets\\Script\\gameManagerGlobal.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAwCUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:16:24.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gestionPlanete.cs",
+              "DocumentMoniker": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gestionPlanete.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\gestionPlanete.cs",
+              "ToolTip": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gestionPlanete.cs",
+              "RelativeToolTip": "Assets\\Script\\gestionPlanete.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:07:30.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "gameManager1.cs",
+              "DocumentMoniker": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gameManager1.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\gameManager1.cs",
+              "ToolTip": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gameManager1.cs",
+              "RelativeToolTip": "Assets\\Script\\gameManager1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T18:03:49.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "gameManager2.cs",
               "DocumentMoniker": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gameManager2.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\gameManager2.cs",
               "ToolTip": "C:\\Users\\laure\\OneDrive\\Bureau\\doucebaleine\\ecole\\a25\\xp\\partyGame\\Assets\\Script\\gameManager2.cs",
               "RelativeToolTip": "Assets\\Script\\gameManager2.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwGkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwHYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T01:01:37.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T18:18:45.213Z"
             }
           ]
         }

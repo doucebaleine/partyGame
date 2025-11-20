@@ -18,6 +18,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private List<GameObject> plateformes = new List<GameObject>();
     private List<GameObject> televisions = new List<GameObject>();
+    private List<GameObject> joueurs = new List<GameObject>();
     private Material couleurActuelleTV;
 
     public bool finJeu;
@@ -31,8 +32,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     void Start()
     {
         GenererPlateformes();
+        joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
         televisions.AddRange(GameObject.FindGameObjectsWithTag("tv"));
         ChangerCouleurs();
+        StartCoroutine(AccumulerPoints());
     }
 
     // Update is called once per frame
@@ -104,5 +107,17 @@ public class NewMonoBehaviourScript : MonoBehaviour
         }
         ChangerCouleurs(); // Recommencer le processus de changement de couleur
         delaiVerification = Mathf.Max(0.5f, delaiVerification - 0.5f); // Réduire le délai pour augmenter la difficulté
+    }
+
+    IEnumerator AccumulerPoints()
+    {
+        yield return new WaitForSeconds(10);
+
+        foreach (GameObject joueur in joueurs)
+        {
+            gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+            scriptJoueur.Ajouter10();
+        }
+        StartCoroutine (AccumulerPoints());
     }
 }

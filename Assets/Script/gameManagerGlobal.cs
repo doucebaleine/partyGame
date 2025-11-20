@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+using JetBrains.Annotations;
 
 
 public class gameManagerGlobal : MonoBehaviour
@@ -19,10 +21,22 @@ public class gameManagerGlobal : MonoBehaviour
     public static bool minigame2Completed = false;
     public static bool minigame3Completed = false;
 
+    private List<GameObject> joueurs = new List<GameObject>();
+    public List<int> scoresJoueurs = new List<int>();
+
+    public TextMeshProUGUI scoresTexte;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        scoresTexte.text = "Scores des joueurs:\n";
+        joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+        foreach(GameObject joueur in joueurs)
+        {
+            gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+            scoresJoueurs.Add(scriptJoueur.score);
+            scoresTexte.text += "Joueur " + (scoresJoueurs.Count) + " : " + scriptJoueur.score + "\n";
+        }
     }
 
     // Update is called once per frame
@@ -83,6 +97,15 @@ public class gameManagerGlobal : MonoBehaviour
     IEnumerator FinJeu()
     {
         yield return new WaitForSeconds(3f);
-        Debug.Log("Jeu terminé !");
+
+        ///On calcule le score total des joueurs
+        foreach (GameObject joueur in joueurs)
+        {
+            gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+            if (scriptJoueur != null)
+            {
+                //Debug.Log("Score final du joueur: " + scriptJoueur.score);
+            }
+        }
     }
 }

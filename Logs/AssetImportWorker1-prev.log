@@ -1,0 +1,1772 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-laure" at "2025-11-20T04:42:36.8096965Z"
+Built from '6000.2/staging' branch; Version is '6000.2.9f1 (e0c4e791ab71) revision 14730471'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15596 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-11-20T04:42:36Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/partyGame
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+57320
+-licensingIpc
+LicenseClient-laure
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/partyGame
+C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/partyGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23520]  Target information:
+
+Player connection [23520]  * "[IP] 10.0.0.228 [Port] 0 [Flags] 2 [Guid] 3074413859 [EditorId] 3074413859 [Version] 1048832 [Id] WindowsEditor(7,méduse) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23520] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23520] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21984, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              9066f49f2fb841faa2966fd5ffdbfbf3
+  Correlation Id:          593250ec03d89e72312b1e3129cd741f
+  External correlation Id: 132254313984970564
+  Machine Id:              yT6/NuuTYJ7dZ8+G2NjmJQsO7f0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-laure" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-laure-notifications" at "2025-11-20T04:42:36.8528987Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 38.26 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.9f1 (e0c4e791ab71)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/partyGame/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700S (ID=0x73ef)
+    Vendor:   ATI
+    VRAM:     8146 MB
+    Driver:   31.0.12024.2005
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574117437464-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006163 seconds.
+- Loaded All Assemblies, in  0.457 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 242 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.712 seconds
+Domain Reload Profiling: 1167ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (712ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (652ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (366ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.138 seconds
+Refreshing native plugins compatible for Editor in 19.84 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Failed to get package versions: Cannot connect to Unity Package Manager local server
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.XR.CoreUtils.Editor.PackageVersionUtility:UpdatePackageVersions () (at ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Editor/ProjectValidation/PackageVersionUtility.cs:59)
+Unity.XR.CoreUtils.Editor.PackageVersionUtility:GetPackageVersion (string) (at ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Editor/ProjectValidation/PackageVersionUtility.cs:77)
+UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.0.8/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Editor/ProjectValidation/PackageVersionUtility.cs Line: 59)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 2451ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (822ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (408ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (252ms)
+			BuildScriptInfoCaches (106ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1059ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (199ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (335ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 28.60 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8353 unused Assets / (6.0 MB). Loaded Objects now: 9048.
+Memory consumption went from 155.5 MB to 149.5 MB.
+Total: 20.875000 ms (FindLiveObjects: 1.286700 ms CreateObjectMapping: 1.341700 ms MarkObjects: 13.777000 ms  DeleteObjects: 4.467600 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.966 seconds
+Refreshing native plugins compatible for Editor in 20.97 ms, found 10 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Failed to get package versions: Cannot connect to Unity Package Manager local server
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.XR.CoreUtils.Editor.PackageVersionUtility:UpdatePackageVersions () (at ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Editor/ProjectValidation/PackageVersionUtility.cs:59)
+Unity.XR.CoreUtils.Editor.PackageVersionUtility:GetPackageVersion (string) (at ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Editor/ProjectValidation/PackageVersionUtility.cs:77)
+UnityEditor.XR.Interaction.Toolkit.Samples.Hands.Editor.HandsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/3.0.8/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs:34)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: ./Library/PackageCache/com.unity.xr.core-utils@f0450cbac8d6/Editor/ProjectValidation/PackageVersionUtility.cs Line: 59)
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.332 seconds
+Domain Reload Profiling: 2297ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (620ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1097ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (208ms)
+			ProcessInitializeOnLoadAttributes (560ms)
+			ProcessInitializeOnLoadMethodAttributes (305ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 22.24 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8359 unused Assets / (11.0 MB). Loaded Objects now: 9068.
+Memory consumption went from 196.7 MB to 185.7 MB.
+Total: 18.325600 ms (FindLiveObjects: 1.023800 ms CreateObjectMapping: 0.723400 ms MarkObjects: 10.392100 ms  DeleteObjects: 6.184400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 31049.682999 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall04_Mat.mat
+  artifactKey: Guid(30c74dfc1deb0aa4db33e6f1b48b8e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall04_Mat.mat using Guid(30c74dfc1deb0aa4db33e6f1b48b8e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06bd948183b828d4639e7a139e782c08') in 0.670787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.688301 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall02_Mat.mat
+  artifactKey: Guid(644c4d990d0ad604db9961f895c8b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall02_Mat.mat using Guid(644c4d990d0ad604db9961f895c8b9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53f128ae2572a866f924e6b00393d958') in 0.0121051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_02_Mat.mat
+  artifactKey: Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_02_Mat.mat using Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf0048792d61a4fe624e6aeb93ac5068') in 0.0468238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall03_Normals.tif
+  artifactKey: Guid(27b165a99f6add94dbe46a3df32078e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall03_Normals.tif using Guid(27b165a99f6add94dbe46a3df32078e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '21386ad345f2b965b4f8ed4a055617e0') in 0.0534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall03_Occlusion.tif
+  artifactKey: Guid(5e08c21265c863c4d8195db951bc2a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall03_Occlusion.tif using Guid(5e08c21265c863c4d8195db951bc2a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '946fe3bf57bf30d9d4b3ca645f5a08c2') in 0.0205476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.387327 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_Normal.tif
+  artifactKey: Guid(00d912a6da5167c49a5925bd7973675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_Normal.tif using Guid(00d912a6da5167c49a5925bd7973675a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '353c4e9573ff72cc4100a9cc1cd243be') in 0.0222679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_occlusion.tiff
+  artifactKey: Guid(8afea0bc521239642bf311980cc350fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_occlusion.tiff using Guid(8afea0bc521239642bf311980cc350fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7a32b0dc738d3ffeef5bd226eda06e7') in 0.0201487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.290448 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Gfx/foliage_01.fbx
+  artifactKey: Guid(a8e0524c3b55c4381acf37786e5173f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Gfx/foliage_01.fbx using Guid(a8e0524c3b55c4381acf37786e5173f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_ves_icall_object_new_specific <0x0006a>
+	  at <>c:<GetMaterialReferenceLookup>b__2_0 <0x00042>
+	  at WhereEnumerableIterator`1:MoveNext <0x000ea>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialReferenceLookup <0x00478>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer <0x0006a>
+	  at <Module>:invoke_void_CustomObjectIndexerTarget_ObjectIndexer <0x00113>
+	  at UnityEditor.Search.ObjectIndexer:CallCustomIndexers <0x004c9>
+	  at UnityEditor.Search.ObjectIndexer:IndexCustomProperties <0x00132>
+	  at UnityEditor.Search.AssetIndexer:IndexSubAsset <0x003fa>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x00b92>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x00163>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00018>
+	  at <Module>:runtime_invoke_void__this___object <0x00092>
+=================================================================
+ -> (artifact id: 'a3bfc88ace2ca25153eab9d70dd23bd7') in 0.3366778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203096 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Ground/Textures/WaterMoss_Albedo.tif
+  artifactKey: Guid(826b6924bcb61d14781258bb7c93dcb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Ground/Textures/WaterMoss_Albedo.tif using Guid(826b6924bcb61d14781258bb7c93dcb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aad141a9bae5a5a4a7da0236a6189f18') in 0.0548051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.461643 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Height.tiff
+  artifactKey: Guid(df60308f4b032f2448fb008b9c3b5164) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Height.tiff using Guid(df60308f4b032f2448fb008b9c3b5164) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18f14f5ff5e903827ed763eec2ce06f5') in 0.0294067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.488678 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall04_02.prefab
+  artifactKey: Guid(cf53e90573ce6e04ea09f9fe19c22f61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall04_02.prefab using Guid(cf53e90573ce6e04ea09f9fe19c22f61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38f0a3c7b1e8c84134add877bdbea37f') in 0.0212835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.493001 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Vine_Mat.mat
+  artifactKey: Guid(b345939ea62931547acd63bcd5b485e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Vine_Mat.mat using Guid(b345939ea62931547acd63bcd5b485e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '670937f6a65063d9ebdd5b2f09e2661a') in 0.0317638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.471548 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge01_Mat.mat
+  artifactKey: Guid(9837bc8d745123a41b80f8b8f1fd6b86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge01_Mat.mat using Guid(9837bc8d745123a41b80f8b8f1fd6b86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23420ec0a2c907044f2302898b1a7110') in 0.028988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481072 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge07_Mat.mat
+  artifactKey: Guid(71aab5c4da545394d98ddfc9835e12db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge07_Mat.mat using Guid(71aab5c4da545394d98ddfc9835e12db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '774e7986e27d59045741e99a16686534') in 0.0247904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.477690 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall03_MetallicSmooth.tif
+  artifactKey: Guid(2fa215b7b6f0686488d7029dff74bfa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall03_MetallicSmooth.tif using Guid(2fa215b7b6f0686488d7029dff74bfa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8c3106ced0b79f824c40953960573f1') in 0.0272184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.473172 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01.fbx
+  artifactKey: Guid(266f03476f36b2945b733736a459bf7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01.fbx using Guid(266f03476f36b2945b733736a459bf7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57edf82081cdbacbd0e07e2fe88f8b23') in 0.0329902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466106 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/RockLedge01_Mat.mat
+  artifactKey: Guid(00036c34b5ae386428e7e2e5470124e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/RockLedge01_Mat.mat using Guid(00036c34b5ae386428e7e2e5470124e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d0744a9434d0d32cb7311f17f92216c') in 0.0595159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.391720 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium04_02.fbx
+  artifactKey: Guid(d6fbdfad7dffcb44182ff67dbe3bdbba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium04_02.fbx using Guid(d6fbdfad7dffcb44182ff67dbe3bdbba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54871f178e45e451cf2a12b05c995366') in 0.0264213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466668 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Emission.tif
+  artifactKey: Guid(8f5f668809cd59d439066dd31ba43c3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Emission.tif using Guid(8f5f668809cd59d439066dd31ba43c3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92b179700e7ef92d969ee04e919be844') in 0.0231327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470425 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_02_Mat.mat
+  artifactKey: Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_02_Mat.mat using Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bd5e0952d70e5599f4b425ae1d9fdba') in 0.0242819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.465786 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/Ridge02.fbx
+  artifactKey: Guid(14de1b0cd6881d94187e1deb3d02986a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/Ridge02.fbx using Guid(14de1b0cd6881d94187e1deb3d02986a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92d2620145c6aadd614671c85eefe96d') in 0.0218435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462841 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium03_MetallicSmooth.tif
+  artifactKey: Guid(97a3d24bf98f7644aaafc8ddf73be86d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium03_MetallicSmooth.tif using Guid(97a3d24bf98f7644aaafc8ddf73be86d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a7f4beed137e2081fcf2d2fab49f434') in 0.0245374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456948 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium02_Emission.tif
+  artifactKey: Guid(c40f8ff43167d5f43ab0da3b47c2da28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium02_Emission.tif using Guid(c40f8ff43167d5f43ab0da3b47c2da28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1fdc99b1966cb2fe0125956a77e5906') in 0.0205764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460406 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium04_Emissive.tif
+  artifactKey: Guid(dc8184056bca4054bae5e93159338620) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium04_Emissive.tif using Guid(dc8184056bca4054bae5e93159338620) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a7568a756a39559f83f5fc6d4f7db9a') in 0.0232204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.447746 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/Ridge01_MetallicSmooth.tif
+  artifactKey: Guid(0258afdfc44a6a54da338591a780d712) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/Ridge01_MetallicSmooth.tif using Guid(0258afdfc44a6a54da338591a780d712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77e55a78e6d6f6ed8d4ebf0c7a7bf5f7') in 0.0262408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.447665 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge01_MetallicSmooth.tif
+  artifactKey: Guid(71e719555a5e83f4da18293c27bc6c5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge01_MetallicSmooth.tif using Guid(71e719555a5e83f4da18293c27bc6c5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5295482171adff8003f3ebf548b067a') in 0.0211465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.449820 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/terrain_ground/ground_M.mat
+  artifactKey: Guid(dc4c26d7a6d1744359080c1126d76643) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/terrain_ground/ground_M.mat using Guid(dc4c26d7a6d1744359080c1126d76643) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3668a893dba4bb070b96c989abc9b91c') in 0.0208581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/Tree/Foliage/tree_01_LP_textureSet_Roughness.png
+  artifactKey: Guid(f3312b6d64169477c9697892ee154926) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/Tree/Foliage/tree_01_LP_textureSet_Roughness.png using Guid(f3312b6d64169477c9697892ee154926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f9872fe4c4b34bb4329db40e60ea4aa') in 0.0256847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Prefabs/trunk.prefab
+  artifactKey: Guid(314adce1424fa42888bcb1facdc53f56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Prefabs/trunk.prefab using Guid(314adce1424fa42888bcb1facdc53f56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c021b5b3f7bd3695f5edaaf560654ee3') in 0.0200216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Materials/Skybox.mat
+  artifactKey: Guid(442fcf418098e4cc7be885f73f92d841) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Materials/Skybox.mat using Guid(442fcf418098e4cc7be885f73f92d841) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8abae9c86c7b1900ea793e98879eafde') in 0.0261729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockFloating04.prefab
+  artifactKey: Guid(11aa281cc23caa147bfa0d4108fc202d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockFloating04.prefab using Guid(11aa281cc23caa147bfa0d4108fc202d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eadeee6f4f1f2b5be4ce1a5011e393c6') in 0.0200341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_PolySphere1.001_Normal.png
+  artifactKey: Guid(c63f567f1fb124bd786c32c63a82b3c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_PolySphere1.001_Normal.png using Guid(c63f567f1fb124bd786c32c63a82b3c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb444421228f5c8c682a1cd22f09319b') in 0.0281164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Materials/grass_M.mat
+  artifactKey: Guid(89fc86d151a0e41a7b2ced345d2fee6a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Materials/grass_M.mat using Guid(89fc86d151a0e41a7b2ced345d2fee6a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '30820bd84b1b4f5459171a5bf711be3d') in 0.0551867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_MetallicSmooth.tif
+  artifactKey: Guid(caac4a165a0cb994ab9940263beb81f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_MetallicSmooth.tif using Guid(caac4a165a0cb994ab9940263beb81f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5997cb7d923a72361a6a3c58c1aabf6') in 0.031538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall04_02.fbx
+  artifactKey: Guid(62bf2c5e2fe738b4585f3f18abfbfe1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall04_02.fbx using Guid(62bf2c5e2fe738b4585f3f18abfbfe1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0b60667ffe4ff720cdbbbc749230c5b') in 0.027841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/terrain_grass/stylized_lawn_grass_metallic.png
+  artifactKey: Guid(ac68770e7aa8141f6b9d9ca9f4d4cb00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/terrain_grass/stylized_lawn_grass_metallic.png using Guid(ac68770e7aa8141f6b9d9ca9f4d4cb00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65a0b5dd3b96202714f7cdb4faf8aeb9') in 0.0261759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Prefabs/Terrain.prefab
+  artifactKey: Guid(d5c679fa5cb6c4b1291dc05ad7c3d71e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Prefabs/Terrain.prefab using Guid(d5c679fa5cb6c4b1291dc05ad7c3d71e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)The tree tree_01 couldn't be instanced because the prefab contains no valid mesh renderer.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SerializedProperty:GetPPtrValueInternal ()
+UnityEditor.SerializedProperty:get_objectReferenceValue ()
+UnityEditor.Search.ObjectIndexer:IndexProperty (int&,string&,UnityEditor.SerializedProperty&,int,UnityEditor.Search.SearchPropositionGenerationOptions)
+UnityEditor.Search.ObjectIndexer:IndexPropertyIfIndexable (int,string&,UnityEditor.SerializedProperty&,int,UnityEditor.Search.PropertyWithPrefixIndexing)
+UnityEditor.Search.ObjectIndexer:IndexVisibleProperties (int,UnityEditor.SerializedProperty&,bool,int,System.Func`2<UnityEditor.SerializedProperty, bool>)
+UnityEditor.Search.ObjectIndexer:IndexVisibleProperties (int,UnityEditor.SerializedProperty&,bool,int)
+UnityEditor.Search.ObjectIndexer:IndexObject (int,UnityEngine.Object,bool,bool)
+UnityEditor.Search.ObjectIndexer:IndexObject (int,UnityEngine.Object,bool)
+UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+[C:\build\output\unity\unity\Modules\Terrain\Public\TreeDatabase.cpp line 355]
+
+ -> (artifact id: '0d9a80d1c25f311e33f44f1cb77ab63d') in 0.0557589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_02.fbx
+  artifactKey: Guid(4ad71d0c76d63374e9c5fef03ba3b118) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall01_02.fbx using Guid(4ad71d0c76d63374e9c5fef03ba3b118) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d03bb699243ba8cd4bdf7120ab90ec5') in 0.0374897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Gfx/rock_02.fbx
+  artifactKey: Guid(df67164ad72564ecda48ee9e3fa7070f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Gfx/rock_02.fbx using Guid(df67164ad72564ecda48ee9e3fa7070f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b2d8c2e475c4c7667521f812c24344c') in 0.0412297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall02.fbx
+  artifactKey: Guid(9d1ed9c23e004e84e8283be2bdba967f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall02.fbx using Guid(9d1ed9c23e004e84e8283be2bdba967f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cd0c23e1a1c27b3b098003a3f97b211') in 0.0295326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Ground_Cover_Mat.mat
+  artifactKey: Guid(348479891f8fb7541a5bcff4186dcfb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Ground_Cover_Mat.mat using Guid(348479891f8fb7541a5bcff4186dcfb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '582b8d35f546c91ce99b78b6bf39131d') in 0.1024693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_textureSet_Roughness.png
+  artifactKey: Guid(281c91340db2e49d782f98d77e316e1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/Crystal/crystal_01_LP_textureSet_Roughness.png using Guid(281c91340db2e49d782f98d77e316e1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f315b475d5c0ea5a673669caf26fe3c2') in 0.0234284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/Monument01_Albedo.tif
+  artifactKey: Guid(008a6b98c52009a49999ea04da7a0291) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/Monument01_Albedo.tif using Guid(008a6b98c52009a49999ea04da7a0291) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce17c40d9130925cb442f878bce761f6') in 0.022993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockFloating02_MetallicSmooth.tif
+  artifactKey: Guid(32becb39e11fcb142956e49d68dd118b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockFloating02_MetallicSmooth.tif using Guid(32becb39e11fcb142956e49d68dd118b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e535914591b5a2683be17abbcf71c77e') in 0.0260216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Occlusion.tif
+  artifactKey: Guid(f3ed67a81269cb148acba466b6390784) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge01_Occlusion.tif using Guid(f3ed67a81269cb148acba466b6390784) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c8942579d836b184d7bacb49fc588d3') in 0.0280317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_Normal.tif
+  artifactKey: Guid(00d912a6da5167c49a5925bd7973675a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/HangingMoss01_Normal.tif using Guid(00d912a6da5167c49a5925bd7973675a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eed75674d3231932b63909128279c896') in 0.0248866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall07_Normals.tif
+  artifactKey: Guid(e923e6627ff63f14eb6530e601094b3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall07_Normals.tif using Guid(e923e6627ff63f14eb6530e601094b3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dd9991114ad3d3f2b43f1bbe4061cb8') in 0.0251935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge05_Mat.mat
+  artifactKey: Guid(205bc242ff2fee443a22e249009d9c41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge05_Mat.mat using Guid(205bc242ff2fee443a22e249009d9c41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39ab2a630e9d5cee4647d96185417169') in 0.024871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/Skybox/Day/down.png
+  artifactKey: Guid(9f536f9ccc78647d390765e1053cccf2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/Skybox/Day/down.png using Guid(9f536f9ccc78647d390765e1053cccf2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abad0f8e94a5c0f479802e78c62747d0') in 0.0273954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/terrain_ground/stylized_medium_pebbles_ground_basecolor.png
+  artifactKey: Guid(e4a6d11e03d0d4b8f93956bf1d507979) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/terrain_ground/stylized_medium_pebbles_ground_basecolor.png using Guid(e4a6d11e03d0d4b8f93956bf1d507979) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d34d39c35adf8435361dc316bf4c7a0') in 0.0242293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockFloating02.prefab
+  artifactKey: Guid(01218b33accb0c64aa5175d1b08a7d22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockFloating02.prefab using Guid(01218b33accb0c64aa5175d1b08a7d22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c0287bdee8454c8c309c6941abddb73') in 0.0196382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Albedo.tif
+  artifactKey: Guid(7096e129a24c4db479d9bd72f6672130) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Albedo.tif using Guid(7096e129a24c4db479d9bd72f6672130) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '805a22c95db7917062ae5639418954d8') in 0.0255761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Normals.tif
+  artifactKey: Guid(aac4e27eb95dea9488b1ad38e4e87ae1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Normals.tif using Guid(aac4e27eb95dea9488b1ad38e4e87ae1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8ae79652137a9f3f6fd2581924cb833') in 0.0366316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models
+  artifactKey: Guid(bdbb1d28361b6b743b378c3209964c2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models using Guid(bdbb1d28361b6b743b378c3209964c2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6b9add2dd2f55d35d70dae43fe3b05d') in 0.0170928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/RockChunk01.fbx
+  artifactKey: Guid(6faa4076a385e5e42a2cabd7f38a7b56) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/RockChunk01.fbx using Guid(6faa4076a385e5e42a2cabd7f38a7b56) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f13f7f447e621bde668177eb731558d2') in 0.0268954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge06.fbx
+  artifactKey: Guid(80322bf1c46281b42b1197ea37d48332) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge06.fbx using Guid(80322bf1c46281b42b1197ea37d48332) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '715937f4dec731c1128200b0eebc025c') in 0.0311784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockLedge01.prefab
+  artifactKey: Guid(95378ab6107787c4a8c94dca562c2497) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockLedge01.prefab using Guid(95378ab6107787c4a8c94dca562c2497) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae3c627313677bf70bbb010aaa7fdeae') in 0.0212289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Prefabs/VegetationLarge07.prefab
+  artifactKey: Guid(bcf2814cdb09f4c4b8f6f27937fb62b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Prefabs/VegetationLarge07.prefab using Guid(bcf2814cdb09f4c4b8f6f27937fb62b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37b6bce138fe582b63b49caa982ff4df') in 0.0201574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large
+  artifactKey: Guid(1bcea42473432be408a4b7174672f10a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large using Guid(1bcea42473432be408a4b7174672f10a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4d2ac7724dc13bff532351c964d57f9') in 0.0168607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials
+  artifactKey: Guid(32fb8e36f55229742b79aea7b2717ff7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials using Guid(32fb8e36f55229742b79aea7b2717ff7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cbe087b45782b8174ce65d9b9a32267b') in 0.0158249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Normals.tif
+  artifactKey: Guid(ae5ee01c99ce7fd4c888263af297bddd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Normals.tif using Guid(ae5ee01c99ce7fd4c888263af297bddd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d878f67c545e2448966af02bd36eb02') in 0.02755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Materials/VegetationMedium02_Mat.mat
+  artifactKey: Guid(fa0793e3c33682d42ab47e6a5c969be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Materials/VegetationMedium02_Mat.mat using Guid(fa0793e3c33682d42ab47e6a5c969be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a935773f5be469509b68782e86c0cac') in 0.0136056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/RockFloating03_Mat.mat
+  artifactKey: Guid(2a8b76488fd1340459de8f96ea4eb868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/RockFloating03_Mat.mat using Guid(2a8b76488fd1340459de8f96ea4eb868) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d2563650fd0b0f89a1711ea7895c204') in 5.1487373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Albedo.tif
+  artifactKey: Guid(533c0cb42b77daf45902d3338a663a8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockChunk01_Albedo.tif using Guid(533c0cb42b77daf45902d3338a663a8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ff49a66512dbdf75fe007c074d6ee1f') in 0.0427913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_02_Mat.mat
+  artifactKey: Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall03_02_Mat.mat using Guid(d956f2ebefac9914a922b5e8a47b41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f67288ecb26331d57c0ff35b36cfc79e') in 3.6565623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Materials/VegetationMedium05_Mat.mat
+  artifactKey: Guid(aa387c8d5aebdc64392b021db5d2471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Materials/VegetationMedium05_Mat.mat using Guid(aa387c8d5aebdc64392b021db5d2471a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '210de4117af776d8d821092d6210f062') in 0.0141656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge01_Mat.mat
+  artifactKey: Guid(9837bc8d745123a41b80f8b8f1fd6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge01_Mat.mat using Guid(9837bc8d745123a41b80f8b8f1fd6b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24b622955aba42243fe7833a94fedb84') in 0.0164657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/CliffBig02.fbx
+  artifactKey: Guid(4c27bf02daa2a7248821d10516e3a864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/CliffBig02.fbx using Guid(4c27bf02daa2a7248821d10516e3a864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dfbfe629d5ad1f90100e61d6d4edc75') in 0.0304964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Prefabs/tree_01.prefab
+  artifactKey: Guid(7a091e571084f4d1e985fb353b54ac86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Prefabs/tree_01.prefab using Guid(7a091e571084f4d1e985fb353b54ac86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43a8882207866025385443af7c203835') in 0.0202915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/Skybox/Day/back.png
+  artifactKey: Guid(d292c0b3ddac04055b4691fbba43a0c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/Skybox/Day/back.png using Guid(d292c0b3ddac04055b4691fbba43a0c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea9eee1ffd26bab47d6cfd9344305f92') in 0.0292419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/Ridge01.fbx
+  artifactKey: Guid(c5712480ad7732348bdc1eedb4b0b25c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/Ridge01.fbx using Guid(c5712480ad7732348bdc1eedb4b0b25c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cbed5534ec3093b64afe3055453b42c') in 0.0286073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models/HangingMoss01.fbx
+  artifactKey: Guid(c70a73e1d9dbe3144b3350ea1598ce89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Models/HangingMoss01.fbx using Guid(c70a73e1d9dbe3144b3350ea1598ce89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b0d338ec5fff365ae738facb69ad678') in 0.02919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Albedo.tif
+  artifactKey: Guid(01947671e84883f4890a9cac2c971c2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockFloating02_Albedo.tif using Guid(01947671e84883f4890a9cac2c971c2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f17b871f909e14a91bc724e02f2e0cc2') in 0.0271212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge06_Mat.mat
+  artifactKey: Guid(5fac63113818f62469196bbb4d59cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge06_Mat.mat using Guid(5fac63113818f62469196bbb4d59cf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c99727ef4ee1b7700585b67781e2a064') in 0.0146991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall07_02.prefab
+  artifactKey: Guid(0c10f8e7dae19a741938bcbf847384f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall07_02.prefab using Guid(0c10f8e7dae19a741938bcbf847384f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '970d7c5189ff77b8aa47922869326606') in 0.0233338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/SmallRock03.prefab
+  artifactKey: Guid(28f22d3d16442a14db3edfbe47bdb3f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/SmallRock03.prefab using Guid(28f22d3d16442a14db3edfbe47bdb3f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65cc57ce65f1f84752b291e4c8f1eb2a') in 0.0241998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Textures/Tree/trunk/tree_01_LP_textureSet_Normal.png
+  artifactKey: Guid(a1f72beb953084374bd9344054d14c68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Textures/Tree/trunk/tree_01_LP_textureSet_Normal.png using Guid(a1f72beb953084374bd9344054d14c68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac14f1302dfe81bf63799535e51e2709') in 0.0281234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge02_Mat.mat
+  artifactKey: Guid(eb3b7fbde3d6cbe469c673216b4cd274) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Materials/VegetationLarge02_Mat.mat using Guid(eb3b7fbde3d6cbe469c673216b4cd274) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f62ecdd7aab0301aa9ddc7bc40efd4d3') in 0.0289162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models
+  artifactKey: Guid(b1da957a36cf2364c951e9cbfc66b865) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models using Guid(b1da957a36cf2364c951e9cbfc66b865) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5ef2262e54472f4c5874f90dfb08d35') in 0.018695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Occlusion.tiff
+  artifactKey: Guid(e19ec2a1f2c1df340aabaaaf1d8b6741) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Occlusion.tiff using Guid(e19ec2a1f2c1df340aabaaaf1d8b6741) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c0d84217c632c892c8f6c6cdb8acf3f') in 0.0259592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Fungus_SpecGloss.tif
+  artifactKey: Guid(93d3574f2ff8e2e4a9985a0f82feebad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Fungus_SpecGloss.tif using Guid(93d3574f2ff8e2e4a9985a0f82feebad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34b161b9898576ce7a1a1bcbed86d4dd') in 0.0288127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall07_Occlusion.tif
+  artifactKey: Guid(c88fb38d38e222d43bebe852d47df2e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall07_Occlusion.tif using Guid(c88fb38d38e222d43bebe852d47df2e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c4bb2ca6a10245b3fb3342ede90cdf3') in 0.0329681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium05_MetallicSmooth.tif
+  artifactKey: Guid(533f9a2788e0d984e8ceb00cadbc0ec2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium05_MetallicSmooth.tif using Guid(533f9a2788e0d984e8ceb00cadbc0ec2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9b6ed50bd373c318971172ca2c7ba31') in 0.0294466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Shaders/GroundCover.shader
+  artifactKey: Guid(9624a55c514d0424c9483ac44daa604d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Shaders/GroundCover.shader using Guid(9624a55c514d0424c9483ac44daa604d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34c97ac2861474f4c9d79b1e74964a94') in 0.0250664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/CliffEdge03_Mat.mat
+  artifactKey: Guid(30b0f587813f86c44b82c48c7733af87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/CliffEdge03_Mat.mat using Guid(30b0f587813f86c44b82c48c7733af87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d3855dfa9969e28ad12165f351f7b33') in 0.0336212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Prefabs/VegetationLarge04.prefab
+  artifactKey: Guid(1ca3cfb26290fbe4e8316579f01640c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Prefabs/VegetationLarge04.prefab using Guid(1ca3cfb26290fbe4e8316579f01640c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fce57d0004dda6bde8b50f53ddb3668a') in 0.0231985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif
+  artifactKey: Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockFloating04_MetallicSmooth.tif using Guid(c9a0bf51bfbd12349a4214462466c9e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b35f6eae80c0ba3a75a190907e044f4') in 0.0303857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall05_Occlusion.tif
+  artifactKey: Guid(bf7acf3db37012c46925ba4b415becf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall05_Occlusion.tif using Guid(bf7acf3db37012c46925ba4b415becf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '440a23efceda002243b400e4798aa40f') in 0.031812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Prefabs/VegetationLarge06.prefab
+  artifactKey: Guid(5700a799dc8c0ff42ae93ef52986c997) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Prefabs/VegetationLarge06.prefab using Guid(5700a799dc8c0ff42ae93ef52986c997) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a1c47ea685f39831ee60763d67d3491') in 0.0253412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Occlusion.tif
+  artifactKey: Guid(bbe1783ae8cd3ea44b5d8d6812de3eea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge03_Occlusion.tif using Guid(bbe1783ae8cd3ea44b5d8d6812de3eea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4138eefd708cd60d1a19e2dd0dc767a') in 0.0277886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall02_Mat.mat
+  artifactKey: Guid(644c4d990d0ad604db9961f895c8b9f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall02_Mat.mat using Guid(644c4d990d0ad604db9961f895c8b9f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8245af95538c4284a8d35829d79abdba') in 0.0297566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Normals.tif
+  artifactKey: Guid(22233eb4b7c3f4b48bc1590bf050bab2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffEdge04_Normals.tif using Guid(22233eb4b7c3f4b48bc1590bf050bab2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3721a4ffb25a959efd45a0aea08f6a90') in 0.0317298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockDetail_MetallicSmooth.tif
+  artifactKey: Guid(3bb1bef1e3fd54e80a387d2b28355e70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockDetail_MetallicSmooth.tif using Guid(3bb1bef1e3fd54e80a387d2b28355e70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c227b8d3e8cd6e6c77419f7d4adc8ee1') in 0.0262168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Prefabs/HangingVine2.prefab
+  artifactKey: Guid(eb24b71eaeb67ab448729d79b84035ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Prefabs/HangingVine2.prefab using Guid(eb24b71eaeb67ab448729d79b84035ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c25e4e3d677f8e0c22149c6b103e339') in 0.0239419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_Albedo.tif
+  artifactKey: Guid(065ad3e5b8ab0784989773710a73aa34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/DistantTerrain_Albedo.tif using Guid(065ad3e5b8ab0784989773710a73aa34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5015451069ae35bd7e0d31fd36c08e19') in 0.0274595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall06_Normals.tif
+  artifactKey: Guid(042fd21c3a319e94aba6934e497ebd87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall06_Normals.tif using Guid(042fd21c3a319e94aba6934e497ebd87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3089646498d81f667e5d34f504bca5f2') in 0.0290251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Normals.tif
+  artifactKey: Guid(31cc2870bec8e1c49a4b755341d2ceb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge02_Normals.tif using Guid(31cc2870bec8e1c49a4b755341d2ceb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '610cf3b67b0fcb5d46203f830ff2fc56') in 0.0296752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/CliffEdge02_Mat.mat
+  artifactKey: Guid(0cf7d47a45bcd864dba9d726d788a924) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/CliffEdge02_Mat.mat using Guid(0cf7d47a45bcd864dba9d726d788a924) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cddc9f07be431e05ec5991cadb82e1f5') in 0.0339859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Normal.tif
+  artifactKey: Guid(e031e487d0803524b981dad56a1d90c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_Normal.tif using Guid(e031e487d0803524b981dad56a1d90c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ef8dfedfff92e8e0783dcf6d7e0e776') in 0.030857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall02.prefab
+  artifactKey: Guid(3aa3e072abd66c046a53f448cbe625da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall02.prefab using Guid(3aa3e072abd66c046a53f448cbe625da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83cdd99e0f650240c9c659151d46a349') in 0.0207785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_Height.tiff
+  artifactKey: Guid(a0571dda65de23a4b8823314c5c31110) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/GroundCover01_Height.tiff using Guid(a0571dda65de23a4b8823314c5c31110) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86ae2db8d45cccdb780e8ab96786001c') in 0.0277258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_MetallicSmooth.tif
+  artifactKey: Guid(f705855c19580ed40acc24e53365ce4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_MetallicSmooth.tif using Guid(f705855c19580ed40acc24e53365ce4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c56e74af2e0de4307e8e41138e3a99fd') in 0.02842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IL3DN/Audio/IL3DN_Birds_Loop.wav
+  artifactKey: Guid(16a07621d1bc9a846bb265d15fb71f4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Audio/IL3DN_Birds_Loop.wav using Guid(16a07621d1bc9a846bb265d15fb71f4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6dd3ecf629e7f8ac43e576fd8a1820e') in 0.1012565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import
+  artifactKey: Guid(55f1163b2e20c3f4197fc4a97a119809) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import using Guid(55f1163b2e20c3f4197fc4a97a119809) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5536d26543f015971de7ae3cac3b7c2') in 0.0170461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/Ridge02_Albedo.tif
+  artifactKey: Guid(8ed88c0615febc044b895e00487dd48b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/Ridge02_Albedo.tif using Guid(8ed88c0615febc044b895e00487dd48b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fd92dad7ac38d79afc75cad84d754a8') in 0.0280569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/RockLedge01.fbx
+  artifactKey: Guid(21880eb3f26ed7f4ea0648ac43fd486a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/RockLedge01.fbx using Guid(21880eb3f26ed7f4ea0648ac43fd486a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee177c2b1e90ce8ef62b453fddd4a415') in 0.0369702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Models
+  artifactKey: Guid(e88a786df0bb4e545baf1044b2267253) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Models using Guid(e88a786df0bb4e545baf1044b2267253) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e3612b5d5f3a7ddf08e8604cb8f57e3') in 0.017927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Grass_02.psd
+  artifactKey: Guid(2038a37a87e1eff4fa5efd69c9d1312e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Grass_02.psd using Guid(2038a37a87e1eff4fa5efd69c9d1312e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc9be3482376f69a98fa469dce4463cf') in 0.0288438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Leaf.mat
+  artifactKey: Guid(49a047f6fab4c994cb92aa690ba93401) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Tree_Pine_Leaf.mat using Guid(49a047f6fab4c994cb92aa690ba93401) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '632273628e9ad09a71fccf32b5ac7ad3') in 0.1211872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/IL3DN/Prefabs/FPSController.prefab
+  artifactKey: Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Prefabs/FPSController.prefab using Guid(5e9e851c0e142814dac026a256ba2ac0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6fa35ea5cd4ec204e0cdb02138880ca') in 0.0831098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge02_MetallicSmooth.tif
+  artifactKey: Guid(93e03daef235f1948928f2437651b77e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/RockLedge02_MetallicSmooth.tif using Guid(93e03daef235f1948928f2437651b77e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b2be7d0b5001acb45c61809047d0de3') in 0.0333951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Grass_02_Mat.mat
+  artifactKey: Guid(7e0b7e421297cbb4cae0bb0da948f573) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Grass_02_Mat.mat using Guid(7e0b7e421297cbb4cae0bb0da948f573) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a7c9594c499a666ada036f0384a4c66') in 0.0329009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Pine_01_OneMesh.FBX
+  artifactKey: Guid(f11e24393ee20a94b9cbfd10c2f99f4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Tree_Pine_01_OneMesh.FBX using Guid(f11e24393ee20a94b9cbfd10c2f99f4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae8de895ca7eb94b2e055f3566e40c4d') in 0.0328714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IL3DN/Scripts/IL3DN_SimpleMouseLook.cs
+  artifactKey: Guid(cf6616a168132ca47848460c33996053) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Scripts/IL3DN_SimpleMouseLook.cs using Guid(cf6616a168132ca47848460c33996053) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e9210dc0fc66a6adf681bcbb9e3e454') in 0.0215156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium02_02.fbx
+  artifactKey: Guid(694d4c8cb17042b469027db61e6a82f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Models/VegetationMedium02_02.fbx using Guid(694d4c8cb17042b469027db61e6a82f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5dbaae7e8668c4912fd47fed6da7f002') in 0.0297177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Shaders
+  artifactKey: Guid(09509c7f7a11a4f13afbecc5d3e2822a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Shaders using Guid(09509c7f7a11a4f13afbecc5d3e2822a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef7e676cf12fa50a33fd38b2f12c3a78') in 0.0184493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffBig02_MetallicSmooth.tif
+  artifactKey: Guid(8ff898b0b70398349998d5b0b427f060) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffBig02_MetallicSmooth.tif using Guid(8ff898b0b70398349998d5b0b427f060) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4cf5eddd46bdebcffe5dee396d1db06') in 0.0290958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Prefabs/VegetationMedium04.prefab
+  artifactKey: Guid(915ccbcb4967d9a47920fc29283bda79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Prefabs/VegetationMedium04.prefab using Guid(915ccbcb4967d9a47920fc29283bda79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1c4625f11038a1a722e7e135d824f1b') in 0.0243643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IL3DN/Graphics/Meshes
+  artifactKey: Guid(1f946e6771a49b84391284cda4393e4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Meshes using Guid(1f946e6771a49b84391284cda4393e4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2b10972c890dcd87a158c3b449a58f0') in 0.016905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_OneMesh.prefab
+  artifactKey: Guid(de691dfc4f267f7428befc75c109cb1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Tree_Pine_01_OneMesh.prefab using Guid(de691dfc4f267f7428befc75c109cb1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbff5f8095c30e91b0a55d500fe0d6bd') in 0.0220474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures
+  artifactKey: Guid(b1ff8450e7db28143b3702beb15f5446) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures using Guid(b1ff8450e7db28143b3702beb15f5446) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a32e1767f9b60050b63132d965a514af') in 0.0179894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IL3DN/Shaders/IL3DN_Branch.shader
+  artifactKey: Guid(d827f03f07861fa44bba075d0e131eb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Shaders/IL3DN_Branch.shader using Guid(d827f03f07861fa44bba075d0e131eb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a9e5c4d0b5a9fbaaa1775a99fd61dba') in 0.020872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_MetallicSmooth.tif
+  artifactKey: Guid(c0a9eef1ec7fa3e419681b073350a3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Textures/Grass01_MetallicSmooth.tif using Guid(c0a9eef1ec7fa3e419681b073350a3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d5dbcc412611b70661ab24aa1b4e976') in 0.0103284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/RockFloating03.fbx
+  artifactKey: Guid(ee66908065bbfd749bae2cde22f0ad46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/RockFloating03.fbx using Guid(ee66908065bbfd749bae2cde22f0ad46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b0bc8a492d1860efc72bd93448794b0') in 0.0293659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Material/Materials/ciel-minigame3.mat
+  artifactKey: Guid(9ef1fec790b3f4746a6bfcd16dfe9d00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Material/Materials/ciel-minigame3.mat using Guid(9ef1fec790b3f4746a6bfcd16dfe9d00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1043dcc655993f5bba1aa8478c2e65c5') in 0.0238146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IL3DN/Graphics/Prefabs/IL3DN_Collider.prefab
+  artifactKey: Guid(70515aa1cce1f914facc841db543469c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Prefabs/IL3DN_Collider.prefab using Guid(70515aa1cce1f914facc841db543469c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '303495ffbd4a545ee5185948b2282373') in 0.0204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03_02.fbx
+  artifactKey: Guid(aa9d73083c4b89b42b439b7a8abc5998) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03_02.fbx using Guid(aa9d73083c4b89b42b439b7a8abc5998) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10adea4c668db4267df59e2b27f38700') in 0.0306179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Albedo.tif
+  artifactKey: Guid(e396811bc8a737244811455e213cb254) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffBig02_Albedo.tif using Guid(e396811bc8a737244811455e213cb254) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aefc68631af725af2c40e2ed12c8d34') in 0.0323308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge05.fbx
+  artifactKey: Guid(d64fd6a0931b7a34389216abb957525d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge05.fbx using Guid(d64fd6a0931b7a34389216abb957525d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51cf28a4863600db0397265278e8488') in 0.0285414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium04_MetallicSmooth.tif
+  artifactKey: Guid(31f03271124b5e54f9e9f13086e175f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium04_MetallicSmooth.tif using Guid(31f03271124b5e54f9e9f13086e175f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d005e1782436d08649e1374d58b7f57') in 0.028814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03.fbx
+  artifactKey: Guid(b247e1f98f261d648bafb713dd26be2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Models/VegetationSmall03.fbx using Guid(b247e1f98f261d648bafb713dd26be2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c58158f26cec6fd741b5ec3ba6a6700b') in 0.0322574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IL3DN/Graphics/Meshes/IL3DN_Plant_Grass_01.fbx
+  artifactKey: Guid(ee1ab9831f94b1643895bf7b3a9d27e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Meshes/IL3DN_Plant_Grass_01.fbx using Guid(ee1ab9831f94b1643895bf7b3a9d27e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b184648539bdbc696c41d0451140167') in 0.0389215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/CliffEdge04_Mat.mat
+  artifactKey: Guid(dddb14a0dd9e90c4392af5b67f34ca7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Materials/CliffEdge04_Mat.mat using Guid(dddb14a0dd9e90c4392af5b67f34ca7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87055070877048314f922eaa7629445e') in 0.032243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge01.fbx
+  artifactKey: Guid(528bcfb2338ecb2418b75a2b59da9848) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Models/VegetationLarge01.fbx using Guid(528bcfb2338ecb2418b75a2b59da9848) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e5cbdb82faa1e89bc3296d42ceec62f') in 0.0313854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IL3DN/Scripts/IL3DN_SimpleFPSController.cs
+  artifactKey: Guid(e35b9de0725819647802f3a74590c59d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Scripts/IL3DN_SimpleFPSController.cs using Guid(e35b9de0725819647802f3a74590c59d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74f2c613aef12a1b1a090769a66914ba') in 0.0183466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Backdrop.png
+  artifactKey: Guid(6b7835b292988be4e811a364b30621d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Backdrop.png using Guid(6b7835b292988be4e811a364b30621d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23bbbb1fe46aa9c9c3b00a8b44306e83') in 0.0308619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall01.prefab
+  artifactKey: Guid(c062302fb598fa047bfc68b6f4b530c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Prefabs/VegetationSmall01.prefab using Guid(c062302fb598fa047bfc68b6f4b530c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d4bf53c6ebde6831733f7c0f79fed44') in 0.0213917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs
+  artifactKey: Guid(02734ec089a57f64887ff66d2a2a45eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs using Guid(02734ec089a57f64887ff66d2a2a45eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '494e7721395794a7dd7169cd603be124') in 0.0162764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IL3DN/Graphics/Materials/IL3DN_Backdrop.mat
+  artifactKey: Guid(b61829061d5dc774b866e5bb9257dfa1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Materials/IL3DN_Backdrop.mat using Guid(b61829061d5dc774b866e5bb9257dfa1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67c2f33da4ba58801e06f40af0beaaec') in 0.0250695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockLedge02.prefab
+  artifactKey: Guid(2c7892a4e5161614fa260b497adaa41c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Prefabs/RockLedge02.prefab using Guid(2c7892a4e5161614fa260b497adaa41c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82bd357f5f0f740372d37ab652b26f8e') in 0.0237695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Occlusion.tif
+  artifactKey: Guid(b92edacc3575bd24eb3eb9d063f7657a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffEdge02_Occlusion.tif using Guid(b92edacc3575bd24eb3eb9d063f7657a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ce08bff573c8c7cb67cc97707d0f5cb') in 0.0311215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Occlusion.tif
+  artifactKey: Guid(5585ec5a213a7f743bf6080e2b3d8363) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Textures/CliffEdge01_Occlusion.tif using Guid(5585ec5a213a7f743bf6080e2b3d8363) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4f2b7f4c41473696175a4fb20cb97be') in 0.0280868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/CliffBig03.fbx
+  artifactKey: Guid(362e8229a15ec8740aca91e6ec290477) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Rocks/Models/CliffBig03.fbx using Guid(362e8229a15ec8740aca91e6ec290477) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42731f8aa7b021e5ebb5b58b5b43e8aa') in 0.0277413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IL3DN/EditorImages/IL3DN_Logo.png
+  artifactKey: Guid(8ce5ab41ecb07b942a1042a85f585feb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/EditorImages/IL3DN_Logo.png using Guid(8ce5ab41ecb07b942a1042a85f585feb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad923b5292b809fce05274a84ffca4a0') in 0.0375074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/IL3DN/Graphics/Textures/IL3DN_Grass_03.psd
+  artifactKey: Guid(3ab525614e685014da4ff51a15e353f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics/Textures/IL3DN_Grass_03.psd using Guid(3ab525614e685014da4ff51a15e353f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42e232b5cd200fda01c9c484020c7a91') in 0.0259683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Normals.tif
+  artifactKey: Guid(0510e143eeb98d044976b151ac23c3eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Textures/VegetationSmall01_Normals.tif using Guid(0510e143eeb98d044976b151ac23c3eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc92600d814bc4806afcde484eb7de8b') in 0.0402688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IL3DN/Graphics
+  artifactKey: Guid(f2fd687eb0ea296428106389d5336ea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IL3DN/Graphics using Guid(f2fd687eb0ea296428106389d5336ea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfb925e787aa9f01e0cb475e4ba09c69') in 0.0205941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.934479 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge01_Occlusion.tif
+  artifactKey: Guid(870953844c6009b4fb28f179aa0d8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge01_Occlusion.tif using Guid(870953844c6009b4fb28f179aa0d8515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6680a4405417a40eb920e14873a88669') in 0.0194561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.501177 seconds.
+  path: Assets/Samples/XR Hands/1.6.2/HandVisualizer/Materials/MaterialPipelineHandler.asset
+  artifactKey: Guid(e22d037d5d9286644b4b81a8b91b5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Hands/1.6.2/HandVisualizer/Materials/MaterialPipelineHandler.asset using Guid(e22d037d5d9286644b4b81a8b91b5ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4105f127494ec15ab305f2e574cdd88') in 0.0031212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset
+  artifactKey: Guid(fcbe69f7b69204d43b67d30e2487c37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.1/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset using Guid(fcbe69f7b69204d43b67d30e2487c37c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '213ab5b7efb073ba9bb3240ae48a2ec0') in 0.0024498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.478398 seconds.
+  path: Assets/Decor/underwater/Unity/Materials/AcroporaBlue_BaseMap.mat
+  artifactKey: Guid(192bf3a412b593541941335987a68d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Decor/underwater/Unity/Materials/AcroporaBlue_BaseMap.mat using Guid(192bf3a412b593541941335987a68d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c506486a42e7a7ef118b84831a051fd') in 3.719734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Material/Materials/aiStandardSurface1exterieurbleu.mat
+  artifactKey: Guid(73c6c0c04bf793b409541d3d77ab6696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/aiStandardSurface1exterieurbleu.mat using Guid(73c6c0c04bf793b409541d3d77ab6696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7e6ff010a8960cdbfd33a68eadfd66e') in 0.0564318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Material/Materials/aiStandardSurface1exterieurose 1.mat
+  artifactKey: Guid(615d919d678d71845838da7efcad95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/aiStandardSurface1exterieurose 1.mat using Guid(615d919d678d71845838da7efcad95fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c512f4a5c9059398f42042f97cb6829') in 0.02185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Material/Materials/aiStandardSurface1exterieurose.mat
+  artifactKey: Guid(6a60a4237d704a04c892100a5dc362cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/aiStandardSurface1exterieurose.mat using Guid(6a60a4237d704a04c892100a5dc362cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bb04f0dba10dadfe7886bcdacf839b1') in 0.0219266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.0.8/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat
+  artifactKey: Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.0.8/Hands Interaction Demo/HandsDemoSceneAssets/Materials/AccentButton.mat using Guid(53c16fb5d5c516b40a1f6a8fc34132f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d6a1214ceaaa65f997660c2a72367e') in 3.1480891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Material/Materials/aiStandardSurface1exterieurmauve.mat
+  artifactKey: Guid(d0ac5d2d4ec898743bb834c38c847243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/aiStandardSurface1exterieurmauve.mat using Guid(d0ac5d2d4ec898743bb834c38c847243) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7e13cdd7f6aa0ccbf4c8ff31a293079') in 0.0218346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Material/Materials/aiStandardSurface1exterieurvert.mat
+  artifactKey: Guid(beabc6027847bab418125f23d89c2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/aiStandardSurface1exterieurvert.mat using Guid(beabc6027847bab418125f23d89c2d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9079fa037fc68506c8a2febdfa6462f7') in 0.0202734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.161992 seconds.
+  path: Assets/Decor/alien nature/source/Polygonal Alien Cave Nature Asset Package/Materials/atlass_1_diffuse 1.mat
+  artifactKey: Guid(bf57bbf983ea23648a5022112d8fedac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Decor/alien nature/source/Polygonal Alien Cave Nature Asset Package/Materials/atlass_1_diffuse 1.mat using Guid(bf57bbf983ea23648a5022112d8fedac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '056b5d02243bab89820a473408601444') in 0.0246535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Materials/crystal_01_M.mat
+  artifactKey: Guid(393305ce71db44faa9c0d249c1e64205) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Materials/crystal_01_M.mat using Guid(393305ce71db44faa9c0d249c1e64205) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e4fedfb04391d562bebdc0d913c0567') in 0.0557991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Material/Materials/lapin/bunny2_face_body.mat
+  artifactKey: Guid(d3854e716ea336b4698930dfdb761f9c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Material/Materials/lapin/bunny2_face_body.mat using Guid(d3854e716ea336b4698930dfdb761f9c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c24e9b395a50fc11032a6f706917f444') in 0.0174497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Material/Materials/lapin/bunny1_scarf.mat
+  artifactKey: Guid(c60e8cafdfd7c284fbdc83cfc85cfae9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Material/Materials/lapin/bunny1_scarf.mat using Guid(c60e8cafdfd7c284fbdc83cfc85cfae9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9a9a28a3da1455465e743af5e45347b') in 0.0191913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Fungus_Red_Mat.mat
+  artifactKey: Guid(9afac42e3a1d9d04d8cf1945f1cd04bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Misc/Materials/Fungus_Red_Mat.mat using Guid(9afac42e3a1d9d04d8cf1945f1cd04bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2cb4eacf343a7c6e1edff813fe63b4ab') in 0.0248142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Materials/rock_M.mat
+  artifactKey: Guid(e81576c6e7f7f412abbdd3d7250398f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Materials/rock_M.mat using Guid(e81576c6e7f7f412abbdd3d7250398f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b5683b051e83acfc414a7f8ffe0ac16') in 0.023365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Import/Stylized Environnement - Free Pack/Materials/trunk_M.mat
+  artifactKey: Guid(353a4fe466f094c45933763a7dee1095) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/Stylized Environnement - Free Pack/Materials/trunk_M.mat using Guid(353a4fe466f094c45933763a7dee1095) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1de62a49434773d52296d3a3be7b967d') in 0.0230411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall01_Glowing.mat
+  artifactKey: Guid(6b50833ee3cb96c459e29fd78fbee948) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Small/Materials/VegetationSmall01_Glowing.mat using Guid(6b50833ee3cb96c459e29fd78fbee948) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0523cdadd16476dab05d46e2b2385d9') in 0.0222902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Material/Materials/lapin/bunny_eyes.mat
+  artifactKey: Guid(a9c27389f99fbbe4d84934719c125692) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Material/Materials/lapin/bunny_eyes.mat using Guid(a9c27389f99fbbe4d84934719c125692) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40e3d6221a7a3c74f4fab6dbb18da12d') in 0.0185476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.921680 seconds.
+  path: Assets/Material/Materials/aiStandardSurface2interieurrose.mat
+  artifactKey: Guid(a1a214131872d8b4b8854d4ccb074e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/Materials/aiStandardSurface2interieurrose.mat using Guid(a1a214131872d8b4b8854d4ccb074e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06c4e8f43ee5621c968dbe9ed59fb234') in 0.0181741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.377303 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Normals.tif
+  artifactKey: Guid(ae5ee01c99ce7fd4c888263af297bddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_Normals.tif using Guid(ae5ee01c99ce7fd4c888263af297bddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '579645051b91f5cfb56325d72669383c') in 0.0201747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_MetallicSmooth.tif
+  artifactKey: Guid(f705855c19580ed40acc24e53365ce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Large/Textures/VegetationLarge02_MetallicSmooth.tif using Guid(f705855c19580ed40acc24e53365ce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '057714cb55ad605a44a35013aa90d53b') in 0.0081422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 907.204110 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium01_Normals.tif
+  artifactKey: Guid(989c89742b53aff4c8b0648ddc2c1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium01_Normals.tif using Guid(989c89742b53aff4c8b0648ddc2c1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b89d1f303e361789a01e7b04ba79b07') in 0.0206365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium01_MetallicSmooth.tif
+  artifactKey: Guid(17daddcd69c408a46b4fd2b800aea99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium01_MetallicSmooth.tif using Guid(17daddcd69c408a46b4fd2b800aea99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccd207a9a33d76e3f2e92a34afd9bf7e') in 0.0087014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium01_Occlusion.tif
+  artifactKey: Guid(b97546dcabed36c4bb24175139ecb910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium01_Occlusion.tif using Guid(b97546dcabed36c4bb24175139ecb910) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65df6e78d70d928ab8a2ce972476dec6') in 0.0170668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.685703 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium03_Normals.tif
+  artifactKey: Guid(44e9f78e7ba5b7e4b9fb161c61bb41ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium03_Normals.tif using Guid(44e9f78e7ba5b7e4b9fb161c61bb41ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c2581f032ce96dd27faf158520349c7') in 0.0218774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium03_MetallicSmooth.tif
+  artifactKey: Guid(97a3d24bf98f7644aaafc8ddf73be86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium03_MetallicSmooth.tif using Guid(97a3d24bf98f7644aaafc8ddf73be86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1e6bc7d1ebd4323e67a15e4a7bd753c') in 0.0079946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.712939 seconds.
+  path: Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium04_Normals.tif
+  artifactKey: Guid(17753bbe9fb00a14189fd0f9bd5b01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/3D Gamekit - Environment Pack/Environment/Vegetation/Medium/Textures/VegetationMedium04_Normals.tif using Guid(17753bbe9fb00a14189fd0f9bd5b01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0feeb923fd54c3292eaa87a070730f52') in 0.0190741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

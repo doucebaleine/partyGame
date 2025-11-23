@@ -29,14 +29,14 @@ public class gameManagerGlobal : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        scoresTexte.text = "Scores des joueurs:\n";
-        joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
-        foreach(GameObject joueur in joueurs)
-        {
-            gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
-            scoresJoueurs.Add(scriptJoueur.score);
-            scoresTexte.text += "Joueur " + (scoresJoueurs.Count) + " : " + scriptJoueur.score + "\n";
-        }
+        //scoresTexte.text = "Scores des joueurs:\n";
+        //joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+        //foreach(GameObject joueur in joueurs)
+        //{
+        //    gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+        //    scoresJoueurs.Add(scriptJoueur.score);
+        //    scoresTexte.text += "Joueur " + (scoresJoueurs.Count) + " : " + scriptJoueur.score + "\n";
+        //}
     }
 
     // Update is called once per frame

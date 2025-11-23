@@ -13,6 +13,7 @@ TagManager:
   - porte2
   - porte3
   - tv
+  - trampoline
   layers:
   - Default
   - TransparentFX

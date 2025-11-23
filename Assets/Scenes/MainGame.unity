@@ -1876,6 +1876,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5153517498714181929, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_NearFarEnableTeleportDuringNearInteraction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5427215433783172354, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_SmoothTurnEnabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5427215433783172354, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
@@ -2008,6 +2012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::gestionJoueur
   score: 0
   texteScore: {fileID: 0}
+  forceTrampoline: 10
 --- !u!1001 &823292726
 PrefabInstance:
   m_ObjectHideFlags: 0

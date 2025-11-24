@@ -10,6 +10,7 @@ public class gestionJoueur : MonoBehaviour
 
     /// Minigame3
     public float forceTrampoline = 10f;
+    public bool enJeu = false;
     private Rigidbody rb;
 
 
@@ -40,12 +41,22 @@ public class gestionJoueur : MonoBehaviour
         score += 50;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "trampoline")
         {
             rb.angularVelocity = new Vector3(rb.angularVelocity.x, 0, rb.angularVelocity.z);
             rb.AddForce(Vector3.up * forceTrampoline, ForceMode.VelocityChange);
+        }
+        
+        
+    }
+
+    void OnColliderTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "zoneJeu")
+        {
+            enJeu = true;
         }
     }
 }

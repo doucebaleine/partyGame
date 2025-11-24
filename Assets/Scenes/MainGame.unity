@@ -1426,6 +1426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Asteroids Belt (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1123243791319946, guid: c0aedbee0212d4ba08d6e85a65854d22, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4795756332844644, guid: c0aedbee0212d4ba08d6e85a65854d22, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.9356782
@@ -1649,8 +1653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::gameManagerGlobal
   joueur: {fileID: 821406251}
   instructionMinigame1: {fileID: 559598771}
-  instructionMinigame2: {fileID: 0}
-  instructionMinigame3: {fileID: 0}
+  instructionMinigame2: {fileID: 1193047009}
+  instructionMinigame3: {fileID: 597214207}
   scoresJoueurs: 
   scoresTexte: {fileID: 0}
 --- !u!1001 &771612318
@@ -1953,7 +1957,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 657184242161839408, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1957344830}
     m_AddedComponents:
@@ -1967,11 +1971,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2063573085}
   m_SourcePrefab: {fileID: 100100000, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
---- !u!4 &790319905 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
-  m_PrefabInstance: {fileID: 790319904}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &821406251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2218496723442559054, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
@@ -2013,6 +2012,7 @@ MonoBehaviour:
   score: 0
   texteScore: {fileID: 0}
   forceTrampoline: 10
+  enJeu: 0
 --- !u!1001 &823292726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2471,6 +2471,10 @@ PrefabInstance:
     - target: {fileID: 1123243791319946, guid: c0aedbee0212d4ba08d6e85a65854d22, type: 3}
       propertyPath: m_Name
       value: Asteroids Belt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1123243791319946, guid: c0aedbee0212d4ba08d6e85a65854d22, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4795756332844644, guid: c0aedbee0212d4ba08d6e85a65854d22, type: 3}
       propertyPath: m_LocalScale.x
@@ -9145,19 +9149,19 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1957344825}
   m_LocalRotation: {x: -0, y: -0.7620337, z: -0, w: 0.6475374}
-  m_LocalPosition: {x: 0, y: 0, z: -0.08345741}
-  m_LocalScale: {x: 0.0010000002, y: 0.001, z: 0.0010000002}
+  m_LocalPosition: {x: 0, y: 0, z: -0.04263634}
+  m_LocalScale: {x: 0.0005108755, y: 0.0005108754, z: 0.0005108755}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1608274622}
   - {fileID: 1783256596}
   - {fileID: 1003534}
   - {fileID: 1833242703}
-  m_Father: {fileID: 790319905}
+  m_Father: {fileID: 2063573086}
   m_LocalEulerAnglesHint: {x: 0, y: 0.53, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -0.77547777, y: 1.22}
+  m_AnchoredPosition: {x: -0.39617258, y: -0.07223773}
   m_SizeDelta: {x: 800, y: 332.82443}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1982710170
@@ -9471,6 +9475,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.61077416, y: 1, z: 0.6131633}
   m_Center: {x: 0.0011889719, y: 0, z: -0.010765865}
+--- !u!4 &2063573086 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 657184242161839408, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+  m_PrefabInstance: {fileID: 790319904}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2086501475
 GameObject:
   m_ObjectHideFlags: 0
@@ -9756,6 +9765,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1815612442}
     m_Modifications:
+    - target: {fileID: 1320880513522789216, guid: 8708857ee748d2545bca47656fdb731b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1480815689603553820, guid: 8708857ee748d2545bca47656fdb731b, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
       value: 0.78431374
@@ -9815,6 +9828,10 @@ PrefabInstance:
     - target: {fileID: 3950921413826672513, guid: 8708857ee748d2545bca47656fdb731b, type: 3}
       propertyPath: m_Name
       value: Fog
+      objectReference: {fileID: 0}
+    - target: {fileID: 3950921413826672513, guid: 8708857ee748d2545bca47656fdb731b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4207056808153794553, guid: 8708857ee748d2545bca47656fdb731b, type: 3}
       propertyPath: m_LocalPosition.x

@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
@@ -18,15 +19,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
 
     private List<GameObject> plateformes = new List<GameObject>();
     private List<GameObject> televisions = new List<GameObject>();
-    private List<GameObject> joueurs = new List<GameObject>();
+    public List<GameObject> joueurs = new List<GameObject>();
     private Material couleurActuelleTV;
+
 
     public bool finJeu;
     public bool jeuReussi;
+    public bool pasCommencer = true;
     public Button boutonRecommencer;
     public Button boutonQuitter;
     public gameManagerGlobal gameManagerGlobal;
 
+    public GameObject plateformeDebut;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,14 +38,22 @@ public class NewMonoBehaviourScript : MonoBehaviour
         GenererPlateformes();
         joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
         televisions.AddRange(GameObject.FindGameObjectsWithTag("tv"));
-        ChangerCouleurs();
-        StartCoroutine(AccumulerPoints());
+        StartCoroutine(CommencerJeu());
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //foreach (GameObject joueur in joueurs)
+        //{
+        //    gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+        //    if (scriptJoueur.enJeu && pasCommencer)
+        //    {
+        //        StartCoroutine(CommencerJeu());
+        //        pasCommencer = false;
+        //    }
+        //}
     }
     void GenererPlateformes()
     {
@@ -62,6 +74,14 @@ public class NewMonoBehaviourScript : MonoBehaviour
                 nouvellePlateforme.GetComponent<Renderer>().material = couleurAleatoire;
             }
         }
+    }
+
+    IEnumerator CommencerJeu()
+    {
+        plateformeDebut.SetActive(false);
+        yield return new WaitForSeconds(1);
+        ChangerCouleurs();
+        StartCoroutine(AccumulerPoints());
     }
 
     void ChangerCouleurs()

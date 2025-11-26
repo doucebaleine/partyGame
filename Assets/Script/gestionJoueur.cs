@@ -8,6 +8,10 @@ public class gestionJoueur : MonoBehaviour
     public int score = 0;
     public TextMeshProUGUI texteScore;
 
+    public GameObject instructionMinigame1;
+    public GameObject instructionMinigame2;
+    public GameObject instructionMinigame3;
+
     /// Minigame3
     public float forceTrampoline = 10f;
     public bool enJeu = false;
@@ -41,6 +45,42 @@ public class gestionJoueur : MonoBehaviour
         score += 50;
     }
 
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.tag == "porte1")
+        {
+            instructionMinigame1.SetActive(true);
+        }
+        if (collision.gameObject.tag == "porte2")
+        {
+            instructionMinigame2.SetActive(true);
+        }
+        if (collision.gameObject.tag == "porte3")
+        {
+            instructionMinigame3.SetActive(true);
+        }
+        if (collision.gameObject.tag == "zoneJeu")
+        {
+            enJeu = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider collision)
+    {
+        if (collision.gameObject.tag == "porte1")
+        {
+            instructionMinigame1.SetActive(false);
+        }
+        if (collision.gameObject.tag == "porte2")
+        {
+            instructionMinigame2.SetActive(false);
+        }
+        if (collision.gameObject.tag == "porte3")
+        {
+            instructionMinigame3.SetActive(false);
+        }
+    }
+
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "trampoline")
@@ -54,9 +94,6 @@ public class gestionJoueur : MonoBehaviour
 
     void OnColliderTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "zoneJeu")
-        {
-            enJeu = true;
-        }
+        
     }
 }

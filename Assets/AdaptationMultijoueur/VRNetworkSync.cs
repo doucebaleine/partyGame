@@ -1,27 +1,33 @@
 using UnityEngine;
 using Unity.Netcode;
+using Unity.XR.CoreUtils;
 
 public class VRNetworkSync : NetworkBehaviour
 {
     public Transform head, leftHand, rightHand;
     public Transform headVR, leftHandVR, rightHandVR;
 
-    /*public override void OnNetworkSpawn() 
+    public override void OnNetworkSpawn() 
     {
-        if (!isOwner) 
+        if (!IsOwner) 
         {
             enabled = false;
             return;
         }
-        var xrRig = FindObjectOfType<XROrigin>();
+
+        var xrRig = FindAnyObjectByType<XROrigin>();
+        
         headVR = xrRig.Camera.transform;
-        leftHandVR = xrRig.transform.Find("LeftHand Controller");
-        rightHandVR = xrRig.transform.Find("RightHand Controller");
+        leftHandVR = xrRig.transform.Find("Camera Offset/Left Hand");
+        rightHandVR = xrRig.transform.Find("Camera Offset/Right Hand");
     }
 
     void Update()
     {
+        if (!IsOwner) return;
 
+        head.SetPositionAndRotation(headVR.position, headVR.rotation);
+        leftHand.SetPositionAndRotation(leftHandVR.position, leftHandVR.rotation);
+        rightHand.SetPositionAndRotation(rightHandVR.position, rightHandVR.rotation);
     }
-    */
 }

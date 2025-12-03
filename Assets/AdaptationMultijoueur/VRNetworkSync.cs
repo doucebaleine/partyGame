@@ -18,8 +18,8 @@ public class VRNetworkSync : NetworkBehaviour
         var xrRig = FindAnyObjectByType<XROrigin>();
         
         headVR = xrRig.Camera.transform;
-        leftHandVR = xrRig.transform.Find("Camera Offset/Left Hand");
-        rightHandVR = xrRig.transform.Find("Camera Offset/Right Hand");
+        leftHandVR = xrRig.transform.Find("Camera Offset/Left Controller");
+        rightHandVR = xrRig.transform.Find("Camera Offset/Right Controller");
     }
 
     void Update()

@@ -332,7 +332,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &1447933120
 AudioListener:
   m_ObjectHideFlags: 0
@@ -459,22 +459,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4263363360714015490, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 2796207081
-      objectReference: {fileID: 0}
-    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
-      propertyPath: GlobalObjectIdHash
-      value: 3237045316
-      objectReference: {fileID: 0}
-    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
-      propertyPath: SceneMigrationSynchronization
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
-      propertyPath: InScenePlacedSourceGlobalObjectIdHash
-      value: 2400395446
-      objectReference: {fileID: 0}
     - target: {fileID: 657184242118504724, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295
@@ -537,7 +521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7913602612821731387, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 200
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 7913602612821731387, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_LocalRotation.w
@@ -558,6 +542,22 @@ PrefabInstance:
     - target: {fileID: 7913602612821731387, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4263363360714015490, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 2796207081
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 3237045316
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: SceneMigrationSynchronization
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8347796789493180355, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+      propertyPath: InScenePlacedSourceGlobalObjectIdHash
+      value: 2400395446
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1198,7 +1198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManagerGlobalMulti
   ShowTopMostFoldoutHeaderGroup: 1
-  playerPrefab: {fileID: 3583454659778947331, guid: ae93c59ceed634d17baecfc522dac8c8, type: 3}
+  playerPrefab: {fileID: 6826376121771016023, guid: 2948f3486944671469c6ad584a5b8271, type: 3}
   instructionMinigame1: {fileID: 0}
   instructionMinigame2: {fileID: 0}
   instructionMinigame3: {fileID: 0}

@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Netcode.Runtime::Unity.Netcode.NetworkObject
-  GlobalObjectIdHash: 1347081036
+  GlobalObjectIdHash: 1464103696
   InScenePlacedSourceGlobalObjectIdHash: 0
   DeferredDespawnTick: 0
   Ownership: 1
@@ -151,6 +151,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5eefa8124fdceb49955a85f2d813013, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::VRNetworkSync
+  ShowTopMostFoldoutHeaderGroup: 1
+  head: {fileID: 3005296137063955125}
+  leftHand: {fileID: 3416652345959302307}
+  rightHand: {fileID: 772946146694440183}
+  headVR: {fileID: 0}
+  leftHandVR: {fileID: 0}
+  rightHandVR: {fileID: 0}
 --- !u!1 &8418600830026317628
 GameObject:
   m_ObjectHideFlags: 0

@@ -1350,6 +1350,10 @@ PrefabInstance:
       propertyPath: m_EnableMoveWhileSelecting
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4946708998255292220, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_Cameras.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5153517498714181929, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_SmoothMotionEnabled
       value: 0

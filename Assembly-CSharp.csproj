@@ -53,14 +53,18 @@
     <Compile Include="Assets/Script/gameManager2.cs" />
     <Compile Include="Assets/Script/gestionTemps.cs" />
     <Compile Include="Assets/Script/gestionJoueur.cs" />
+    <Compile Include="Assets/Script/Multijoueur/NetworkConnect.cs" />
     <Compile Include="Assets/Script/gameManagerGlobal.cs" />
-    <Compile Include="Assets/Script/NetworkConnect.cs" />
+    <Compile Include="Assets/Script/Multijoueur/LobbyManager.cs" />
     <Compile Include="Assets/Script/gameManager1.cs" />
     <Compile Include="Assets/IL3DN/Scripts/IL3DN_Wind.cs" />
+    <Compile Include="Assets/Script/Multijoueur/NetworkPlayer.cs" />
+    <Compile Include="Assets/Script/Multijoueur/VRRigReferences.cs" />
+    <Compile Include="Assets/Script/Multijoueur/AnimateHandOnInput.cs" />
     <Compile Include="Assets/IL3DN/Scripts/IL3DN_ChangeWalkingSound.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/Script/LobbyManager.cs" />
     <Compile Include="Assets/IL3DN/Scripts/IL3DN_SimpleMouseLook.cs" />
+    <Compile Include="Assets/Script/Multijoueur/NetworkTransformClient.cs" />
     <Compile Include="Assets/Script/scriptAlien.cs" />
     <Compile Include="Assets/IL3DN/Scripts/IL3DN_SimpleFPSController.cs" />
   </ItemGroup>

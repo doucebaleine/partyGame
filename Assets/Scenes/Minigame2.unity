@@ -807,6 +807,7 @@ MonoBehaviour:
   tailleGrille: 4
   espaceEntrePlateformes: 5
   delaiVerification: 5
+  joueurs: []
   finJeu: 0
   jeuReussi: 0
   pasCommencer: 1
@@ -2515,6 +2516,10 @@ PrefabInstance:
     - target: {fileID: 3581603309145056405, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_EnableMoveWhileSelecting
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4946708998255292220, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_Cameras.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5153517498714181929, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_SmoothMotionEnabled

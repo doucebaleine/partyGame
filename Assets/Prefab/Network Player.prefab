@@ -432,6 +432,10 @@ MonoBehaviour:
   - {fileID: 5877255472049064386}
   - {fileID: 6927537534349041495}
   - {fileID: 2383488873342724001}
+  meshesToColor:
+  - {fileID: 5877255472049064386}
+  - {fileID: 6927537534349041495}
+  - {fileID: 2383488873342724001}
 --- !u!114 &6609629371265202682
 MonoBehaviour:
   m_ObjectHideFlags: 0

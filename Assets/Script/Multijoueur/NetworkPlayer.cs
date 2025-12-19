@@ -9,17 +9,17 @@ public class NetworkPlayer : NetworkBehaviour
     public Transform rightHand;
 
     public Renderer[] meshToDisable;
+    public Renderer[] meshesToColor;
 
     public override void OnNetworkSpawn()
     {
         base.OnNetworkSpawn();
-        if (IsOwner)
+        // Désactiver les meshes pour le joueur local
+        foreach (var item in meshToDisable)
         {
-            foreach (var item in meshToDisable)
-            {
-                item.enabled = false;
-            }
+            item.enabled = !IsOwner;
         }
+        AjouterCouleurMesh();
     }
 
     void Update()
@@ -38,5 +38,22 @@ public class NetworkPlayer : NetworkBehaviour
 
         rightHand.position = VRRigReferences.Singleton.rightHand.position;
         rightHand.rotation = VRRigReferences.Singleton.rightHand.rotation;
+    }
+
+    void AjouterCouleurMesh()
+    {
+        // Couleur par défaut
+        Color playerColor = Color.white;
+
+        if (OwnerClientId == 0)
+            playerColor = new Color(0.6f, 0.2f, 0.8f); // mauve
+        else if (OwnerClientId == 1)
+            playerColor = Color.yellow;
+
+        foreach (var rend in meshesToColor)
+        {
+            // Appliquer la couleur au matériau
+            rend.material.color = playerColor;
+        }
     }
 }

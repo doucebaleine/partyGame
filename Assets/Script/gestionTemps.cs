@@ -37,9 +37,9 @@ public class gestionTemps : MonoBehaviour
             {
                 // Scene fin
                 gameManagerScript.finJeu = true;
-                gameManagerScript.TexteGagnant.gameObject.SetActive(true);
-                gameManagerScript.boutonRecommencer.gameObject.SetActive(true);
-                gameManagerScript.boutonQuitter.gameObject.SetActive(true);
+                //gameManagerScript.TexteGagnant.gameObject.SetActive(true);
+                //gameManagerScript.boutonRecommencer.gameObject.SetActive(true);
+                //gameManagerScript.boutonQuitter.gameObject.SetActive(true);
                 TempsRestant = 0;
                 TempsMarche = false;
             }
@@ -49,6 +49,7 @@ public class gestionTemps : MonoBehaviour
         {
             TempsMarche = false;
             Temps.gameObject.SetActive(false);
+            SceneManager.LoadScene("MainGame");
         }
     }
 

@@ -12,6 +12,12 @@ TagManager:
   - porte1
   - porte2
   - porte3
+  - tv
+  - trampoline
+  - zoneJeu
+  - zoneMort
+  - zoneFin
+  - respawn
   layers:
   - Default
   - TransparentFX

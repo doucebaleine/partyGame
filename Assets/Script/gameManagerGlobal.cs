@@ -5,24 +5,36 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+using JetBrains.Annotations;
 
 
 public class gameManagerGlobal : MonoBehaviour
 {
     public GameObject joueur;
 
-    public GameObject instructionMinigame1;
-    public GameObject instructionMinigame2;
-    public GameObject instructionMinigame3;
+    
 
     public static bool minigame1Completed = false;
     public static bool minigame2Completed = false;
     public static bool minigame3Completed = false;
 
+    private List<GameObject> joueurs = new List<GameObject>();
+    public List<int> scoresJoueurs = new List<int>();
+
+    public TextMeshProUGUI scoresTexte;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        //scoresTexte.text = "Scores des joueurs:\n";
+        //joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+        //foreach(GameObject joueur in joueurs)
+        //{
+        //    gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+        //    scoresJoueurs.Add(scriptJoueur.score);
+        //    scoresTexte.text += "Joueur " + (scoresJoueurs.Count) + " : " + scriptJoueur.score + "\n";
+        //}
     }
 
     // Update is called once per frame
@@ -31,38 +43,6 @@ public class gameManagerGlobal : MonoBehaviour
        if (minigame1Completed && minigame2Completed && minigame3Completed)
         {
             StartCoroutine(FinJeu());
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "porte1")
-        {
-            instructionMinigame1.SetActive(true);
-        }
-        if (collision.gameObject.tag == "porte2")
-        {
-            instructionMinigame2.SetActive(true);
-        }
-        if (collision.gameObject.tag == "porte3")
-        {
-            instructionMinigame3.SetActive(true);
-        }
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.tag == "porte1")
-        {
-            instructionMinigame1.SetActive(false);
-        }
-        if (collision.gameObject.tag == "porte2")
-        {
-            instructionMinigame2.SetActive(false);
-        }
-        if (collision.gameObject.tag == "porte3")
-        {
-            instructionMinigame3.SetActive(false);
         }
     }
 
@@ -83,6 +63,15 @@ public class gameManagerGlobal : MonoBehaviour
     IEnumerator FinJeu()
     {
         yield return new WaitForSeconds(3f);
-        Debug.Log("Jeu terminé !");
+
+        ///On calcule le score total des joueurs
+        foreach (GameObject joueur in joueurs)
+        {
+            gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
+            if (scriptJoueur != null)
+            {
+                //Debug.Log("Score final du joueur: " + scriptJoueur.score);
+            }
+        }
     }
 }

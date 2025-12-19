@@ -60,9 +60,7 @@ public class scriptAlien : MonoBehaviour
             //Debug.Log("player collision");
             // tu as perdu!! 
             ////////////// change une variable du script de gameManager
-            gameManager.finJeu = true;
-            gameManager.TextePerdant.gameObject.SetActive(true);
-            gameManager.boutonRecommencer.gameObject.SetActive(true);
+            SceneManager.LoadScene("MainGame");
         }
 
     }

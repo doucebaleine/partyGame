@@ -61,7 +61,7 @@ public class gestionPlanete : MonoBehaviour
     IEnumerator DetruirePlanete()
     {
         // On attend 5 secondes avant de détruire la planète
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2f);
         Destroy(gameObject);
     }
 }

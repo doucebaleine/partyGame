@@ -1,8 +1,0 @@
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/CMakeFiles/edit_cache.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/CMakeFiles/rebuild_cache.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/GameActivity/CMakeFiles/game.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
-C:/Users/laure/OneDrive/Bureau/doucebaleine/ecole/a25/xp/vr-template/.utmp/RelWithDebInfo/3x5q6s49/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

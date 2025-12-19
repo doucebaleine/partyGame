@@ -15,10 +15,10 @@ public class GameManager : MonoBehaviour
 
     public bool finJeu;
     public bool jeuReussi;
-    public TextMeshProUGUI TextePerdant;
-    public TextMeshProUGUI TexteGagnant;
-    public Button boutonRecommencer;
-    public Button boutonQuitter;
+    //public TextMeshProUGUI TextePerdant;
+    //public TextMeshProUGUI TexteGagnant;
+    //public Button boutonRecommencer;
+    //public Button boutonQuitter;
     public TextMeshProUGUI TexteTuto;
     public gameManagerGlobal gameManagerGlobal;
 
@@ -44,11 +44,7 @@ public class GameManager : MonoBehaviour
             {
                 Destroy(alien);
             }
-            //StartCoroutine(JeuAuto());
-            if (jeuReussi)
-            {
-                gameManagerGlobal.minigame1Completed = true;
-            }
+            SceneManager.LoadScene("MainGame");
         }
     }
 
@@ -68,16 +64,16 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(2f);
         }
     }
-    public void RecommencerJeu()
-    {
-        //Debug.Log("click");
-        SceneManager.LoadScene("Minigame1");
-    }
+    //public void RecommencerJeu()
+    //{
+    //    //Debug.Log("click");
+    //    SceneManager.LoadScene("Minigame1");
+    //}
     
-    public void QuitterJeu()
-    {
-        SceneManager.LoadScene("MainGame");
-    }
+    //public void QuitterJeu()
+    //{
+    //    SceneManager.LoadScene("MainGame");
+    //}
 
     //IEnumerator JeuAuto()
     //{   // On attend 10 secondes avant de recommencer le jeu

@@ -12,16 +12,23 @@ public class gestionJoueur : MonoBehaviour
     public GameObject instructionMinigame2;
     public GameObject instructionMinigame3;
 
+    /// Minigame2
+    public bool enJeu = false;
+    public float vies = 3;
+    public GameObject respawn;
+
+
     /// Minigame3
     public float forceTrampoline = 10f;
-    public bool enJeu = false;
     private Rigidbody rb;
+    public bool finCourse = false;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        //respawn = GameObject.FindGameObjectWithTag("respawn");
     }
 
     // Update is called once per frame
@@ -47,6 +54,7 @@ public class gestionJoueur : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
+        /// Menu - instructions minigames
         if (collision.gameObject.tag == "porte1")
         {
             instructionMinigame1.SetActive(true);
@@ -59,9 +67,22 @@ public class gestionJoueur : MonoBehaviour
         {
             instructionMinigame3.SetActive(true);
         }
+
+        /// Minigame2
         if (collision.gameObject.tag == "zoneJeu")
         {
             enJeu = true;
+        }
+        if (collision.gameObject.tag == "zoneMort") /// Réutilisé dans le minigame 3 aussi
+        {
+            vies -= 1;
+            GetComponent<Transform>().position = respawn.GetComponent<Transform>().position; //On renvoie le joueur en haut de la zone de jeu (en espérant que les  plateformes soient toutes actives, sorryyyy ça serait à improve)
+        }
+
+        /// Minigame3
+        if (collision.gameObject.tag == "zoneFin")
+        {
+            finCourse = true;
         }
     }
 
@@ -89,11 +110,6 @@ public class gestionJoueur : MonoBehaviour
             rb.AddForce(Vector3.up * forceTrampoline, ForceMode.VelocityChange);
         }
         
-        
-    }
-
-    void OnColliderTriggerEnter(Collider collision)
-    {
         
     }
 }

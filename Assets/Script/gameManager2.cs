@@ -26,9 +26,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public bool finJeu;
     public bool jeuReussi;
     public bool pasCommencer = true;
-    public Button boutonRecommencer;
-    public Button boutonQuitter;
+    //public Button boutonRecommencer;
+    //public Button boutonQuitter;
     public gameManagerGlobal gameManagerGlobal;
+    public gestionJoueur scriptJoueur;
 
     public GameObject plateformeDebut;
 
@@ -38,21 +39,27 @@ public class NewMonoBehaviourScript : MonoBehaviour
         GenererPlateformes();
         joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
         televisions.AddRange(GameObject.FindGameObjectsWithTag("tv"));
-        StartCoroutine(CommencerJeu());
+        scriptJoueur = joueurs[0].GetComponent<gestionJoueur>();
+        //StartCoroutine(CommencerJeu());
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (scriptJoueur.enJeu && pasCommencer)
+        {
+            StartCoroutine(CommencerJeu());
+            pasCommencer = false;
+        }
+
+        if (scriptJoueur.vies <= 0)
+        {
+            SceneManager.LoadScene("MainGame");
+        }
         //foreach (GameObject joueur in joueurs)
         //{
-        //    gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
-        //    if (scriptJoueur.enJeu && pasCommencer)
-        //    {
-        //        StartCoroutine(CommencerJeu());
-        //        pasCommencer = false;
-        //    }
+        //    //////////// Mettre le code ici pour vérification de tous les joueurs //////////////
         //}
     }
     void GenererPlateformes()
@@ -125,19 +132,20 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             plateforme.SetActive(true); // Réactiver toutes les plateformes
         }
-        ChangerCouleurs(); // Recommencer le processus de changement de couleur
-        delaiVerification = Mathf.Max(0.5f, delaiVerification - 0.5f); // Réduire le délai pour augmenter la difficulté
+
+        if (!finJeu)
+        {
+            ChangerCouleurs(); // Recommencer le processus de changement de couleur
+            delaiVerification = Mathf.Max(0.5f, delaiVerification - 0.5f); // Réduire le délai pour augmenter la difficulté
+        }
+            
     }
 
     IEnumerator AccumulerPoints()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(5);
 
-        foreach (GameObject joueur in joueurs)
-        {
-            gestionJoueur scriptJoueur = joueur.GetComponent<gestionJoueur>();
-            scriptJoueur.Ajouter10();
-        }
+        scriptJoueur.Ajouter10();
         StartCoroutine (AccumulerPoints());
     }
 }

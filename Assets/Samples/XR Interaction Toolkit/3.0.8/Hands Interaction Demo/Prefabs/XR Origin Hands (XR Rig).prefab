@@ -3880,9 +3880,6 @@ PrefabInstance:
       addedObject: {fileID: 1543830913131693506}
     - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8709697555284689638}
-    - targetCorrespondingSourceObject: {fileID: 1717954561962503725, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 7892336703533230911}
     - targetCorrespondingSourceObject: {fileID: 1680501586, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
@@ -4118,28 +4115,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 2.7719615, z: 1}
   m_Center: {x: 0, y: 0.8859807, z: 0}
---- !u!114 &8709697555284689638
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2218496723442559054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2c05d67bcaab3c42aa44372e1698324, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::gestionJoueur
-  ShowTopMostFoldoutHeaderGroup: 1
-  score:
-    m_InternalValue: 0
-  texteScore: {fileID: 0}
-  introMinigame: {fileID: 0}
-  instructionMinigame1: {fileID: 2836392839106407547}
-  instructionMinigame2: {fileID: 8636367122691366181}
-  instructionMinigame3: {fileID: 7515431996664973302}
-  forceTrampoline: 10
-  enJeu: 0
 --- !u!114 &7892336703533230911
 MonoBehaviour:
   m_ObjectHideFlags: 0

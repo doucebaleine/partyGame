@@ -24,19 +24,19 @@ public class NetworkPlayer : NetworkBehaviour
 
     void Update()
     {
-        if(IsOwner)
-        {
-            root.position = VRRigReferences.Singleton.root.position;
-            root.rotation = VRRigReferences.Singleton.root.rotation;
+        if(!IsOwner || VRRigReferences.Singleton == null) 
+            return;
+       
+        root.position = VRRigReferences.Singleton.root.position;
+        root.rotation = VRRigReferences.Singleton.root.rotation;
 
-            head.position = VRRigReferences.Singleton.head.position;
-            head.rotation = VRRigReferences.Singleton.head.rotation;
+        head.position = VRRigReferences.Singleton.head.position;
+        head.rotation = VRRigReferences.Singleton.head.rotation;
 
-            leftHand.position = VRRigReferences.Singleton.leftHand.position;
-            leftHand.rotation = VRRigReferences.Singleton.leftHand.rotation;
+        leftHand.position = VRRigReferences.Singleton.leftHand.position;
+        leftHand.rotation = VRRigReferences.Singleton.leftHand.rotation;
 
-            rightHand.position = VRRigReferences.Singleton.rightHand.position;
-            rightHand.rotation = VRRigReferences.Singleton.rightHand.rotation;
-        }
+        rightHand.position = VRRigReferences.Singleton.rightHand.position;
+        rightHand.rotation = VRRigReferences.Singleton.rightHand.rotation;
     }
 }

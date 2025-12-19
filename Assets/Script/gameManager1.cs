@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
     {
         finJeu = false;
         vitesseAlien = 0.005f;
-        // On appelle la coroutine qui permet de faire apparaître des aliens
+        // On appelle la coroutine qui permet de faire apparaï¿½tre des aliens
         StartCoroutine(SpawnAlien());
         StartCoroutine(FinTuto());
     }
@@ -38,7 +38,7 @@ public class GameManager : MonoBehaviour
         if (finJeu)
         {
             
-            //On désactive tous les aliens
+            //On dï¿½sactive tous les aliens
             GameObject[] aliens = GameObject.FindGameObjectsWithTag("Alien");
             foreach (GameObject alien in aliens)
             {
@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
             //StartCoroutine(JeuAuto());
             if (jeuReussi)
             {
-                gameManagerGlobal.minigame1Completed = true;
+                gameManagerGlobal.minigame1Completed.Value = true;
             }
         }
     }
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
             // On fait choisir un spawn au hasard
             GameObject spawnChoisi = listeSpawnAlien[Random.Range(0, 3)];
 
-            // On instanciate un alien à cette position
+            // On instanciate un alien ï¿½ cette position
             Instantiate(prefabMeduse, spawnChoisi.transform.position, Quaternion.identity);
 
             // On augmente la vitesse des aliens toutes les 3 secondes
@@ -87,7 +87,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator FinTuto()
     {
-        // On attend 10 secondes avant de faire disparaître le tuto
+        // On attend 10 secondes avant de faire disparaï¿½tre le tuto
         yield return new WaitForSeconds(5f);
         TexteTuto.gameObject.SetActive(false);
     }

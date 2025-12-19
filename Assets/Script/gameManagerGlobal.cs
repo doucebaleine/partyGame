@@ -7,17 +7,15 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using JetBrains.Annotations;
+using Unity.Netcode;
 
-
-public class gameManagerGlobal : MonoBehaviour
+public class gameManagerGlobal : NetworkBehaviour
 {
     public GameObject joueur;
 
-    
-
-    public static bool minigame1Completed = false;
-    public static bool minigame2Completed = false;
-    public static bool minigame3Completed = false;
+    public NetworkVariable<bool> minigame1Completed = new NetworkVariable<bool>(false);
+    public NetworkVariable<bool> minigame2Completed = new NetworkVariable<bool>(false);
+    public NetworkVariable<bool> minigame3Completed = new NetworkVariable<bool>(false);
 
     private List<GameObject> joueurs = new List<GameObject>();
     public List<int> scoresJoueurs = new List<int>();
@@ -40,29 +38,56 @@ public class gameManagerGlobal : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if (minigame1Completed && minigame2Completed && minigame3Completed)
+       if (minigame1Completed.Value && minigame2Completed.Value && minigame3Completed.Value)
         {
             StartCoroutine(FinJeu());
         }
     }
 
-    public void Minigame1()
+    [ServerRpc(RequireOwnership = false)]
+    public void LancerMinigameServerRpc(string nomScene)
     {
-        SceneManager.LoadScene("Minigame1");
-    }
-    public void Minigame2()
-    {
-        SceneManager.LoadScene("Minigame2");
+        NetworkManager.Singleton.SceneManager.LoadScene(nomScene, LoadSceneMode.Single);
     }
 
-    public void Minigame3()
+    void RecupererScores()
     {
-        SceneManager.LoadScene("Minigame3");
+        // Récupérer la liste des joueurs et mettre à jour les scores
+        joueurs.Clear();
+        joueurs.AddRange(GameObject.FindGameObjectsWithTag("Player"));
+        scoresJoueurs.Clear();
+
+        foreach (var joueur in joueurs)
+        {
+            var scriptJoueur = joueur.GetComponent<gestionJoueur>();
+            if (scriptJoueur != null)
+            {
+                scoresJoueurs.Add(scriptJoueur.score.Value);
+            }
+        }
+    }
+
+    [ClientRpc]
+    void AfficherScoresClientRpc()
+    {
+        string texte = "Scores des joueurs:\n";
+        foreach (var joueur in joueurs)
+        {
+            var scriptJoueur = joueur.GetComponent<gestionJoueur>();
+            if (scriptJoueur != null)
+            {
+                texte += $"Joueur {joueurs.IndexOf(joueur) + 1} : {scriptJoueur.score.Value}\n";
+            }
+        }
+        scoresTexte.text = texte;
     }
 
     IEnumerator FinJeu()
     {
         yield return new WaitForSeconds(3f);
+
+        RecupererScores();
+        AfficherScoresClientRpc();
 
         ///On calcule le score total des joueurs
         foreach (GameObject joueur in joueurs)

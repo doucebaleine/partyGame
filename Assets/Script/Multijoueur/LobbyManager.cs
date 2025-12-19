@@ -13,8 +13,6 @@ public class LobbyManager : NetworkBehaviour
             return;
 
         NetworkManager.Singleton.OnClientConnectedCallback += GererConnexionClient;
-
-        GererConnexionClient(NetworkManager.Singleton.LocalClientId);
     }
 
     public override void OnNetworkDespawn()
@@ -25,6 +23,7 @@ public class LobbyManager : NetworkBehaviour
         NetworkManager.Singleton.OnClientConnectedCallback -= GererConnexionClient;
     }
 
+    // Gestion de la connexion des joueurs
     void GererConnexionClient(ulong clientId)
     {
         int nbJoueursConnectes = NetworkManager.Singleton.ConnectedClients.Count;
